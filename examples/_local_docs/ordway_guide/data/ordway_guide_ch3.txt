@@ -1,0 +1,111 @@
+Chapter 3: Annual Contracts for Usage-Based Pricing 
+Convert Pay-as-You-Go, Monthly Customers to Long Term Agreements
+
+One big advantage of usage-based pricing — as compared to subscriptions — is that you cannot only pay-as-you-go, you pay only for what you use.  If you use the product for one day you are only billed for consumption during a single day (not the full month). While the pay-as-you-go model is attractive during the early stages of a customer’s relationship with a new vendor, typically does not scale well. As more and more team members begin to use the product, consumption grows along with the monthly bill.
+
+In many usage-based pricing scenarios, it is advantageous to both the customer and the vendor to switch from pay-as-you-go arrangement to a formal annual contract.
+
+Four Types of Contracts for Usage-Based Pricing
+There are four popular contract structures for usage-based pricing that vary in the level of flexibility offered to customers. These contract structures can be paired with various discounting models (flat rate, tiered, volume) and quantity models (block arrangements, high water mark) to design commercial arrangements that best meet the needs of their customers.
+
+The four contract structures are:
+
+1) Prepaid Usage with Monthly Drawdown
+The customer purchases 1000 prepaid units which expire in one year.  They can drawdown against the balance over the course of the year.  They might use all 1000 in the first month or in various periods throughout the year.
+
+2) Monthly Minimum with Overage Fees
+
+The customer agrees to a monthly minimum of $1000, which is the equivalent of 500 units @ $2 each.  If they use 500 units or less they will pay $1000. If they use more than 500 they will pay $1000 plus overage fees.
+
+popular contract structures for usage-based pricing
+3) Spend Commitment with True Up
+
+The customer agrees to spend $100K in the next 12 months in exchange for a discount.  If the customer spends less than $100K they will have to pay a “true up” fee at the end of month 12 to cover the remaining obligations.
+
+4) Tiered Subscription with Min/Max Range
+
+The customer selects tier A includes 1000 units for $100/month. Customers of tier A are billed $100/month whether they use 0, 500, or 1000 units.  If they use more than 1000 units, overage fees may apply.
+
+Contract Type 1
+Prepaid Usage
+In the prepaid usage model, the customer agrees to enter into a contract to purchase a fixed number of units of the product in exchange for a discount.  In general, vendors will offer a higher discount in exchange for a higher upfront commitment of spend from the customer. In other words, a higher volume of prepaid units purchased will result in a lower price per unit.
+
+As the customer consumes usage the prepaid units will be debited from the balance on the account, typically at the end of each monthly billing cycle. When the prepaid usage is depleted the customer can either purchase more prepaid units or transition to a pay-as-you-go model.
+
+Example of Prepaid Usage Drawdown
+Prepaid Usage example with monthly drawdown
+For example, suppose that a customer purchased 120 prepaid units as part of an annual contract.  If there was a drawdown of 10 units per month across the contract term (a consistent monthly usage pattern), then the balance would be depleted steadily down to zero prior to the expiration date as illustrated in the following table and chart.
+
+Month 1: Opening balance of 120 units – Consumption of 10 units = Ending balance of 110 units
+Month 2: Opening balance of 110 units – Consumption of 10 units = Ending balance of 100 units
+Months 3-12: Consumption of 10 units each month
+Month 12: Opening balance of 10 units – Consumption of 10 units = Ending balance of 0 units.
+The customer must now purchase more prepaid usage or switch to a pay-as-you-go model.
+
+Real World Example of Prepaid Usage
+Few SaaS and cloud providers publish their pricing for prepaid usage credits on their website.  Most will only share available discounts with customers that are signing long-term contracts.  However, there are exceptions.
+
+Below is an example of a price table for a cloud-based SMS text messaging service.  Customers can obtain a per unit price discount by purchasing usage in bulk.  The table shows the price to purchase different blocks of usage as well as the discounted per unit price for each package.
+
+example prepaid usage table for sms text messaging service with multiple packaged blocks of usage available to buy
+For additional details on the example prepaid usage pricing shown above consult the Alibaba Cloud Short Message Service page.
+
+Contract Type 2
+Monthly Minimum
+The customer agrees to pay a contracted minimum amount of dollars in spend per month in exchange for a volume discount. Often the minimum spend amount is converted into an allowance of units that the customer can consume each month. If the actual usage is less than the allowance, the customer is still required to pay the monthly minimum fee. If the actual usage is more than the allowance, then the customer may have to pay overage fees.
+
+Monthly minimum contracts are best for customers who have relatively consistent usage each month.  These types of contracts are not appropriate for customers whose consumption might vary at different times of year or be correlated with different phases of a project lifecycle.  Success with the monthly minimum model requires the customer to develop a reasonably accurate forecast of future consumption over the year long contract lifecycle.  It is in the vendor’s best interest that the forecast is accurate.  A customer that is consistently paying for more usage than they are actually consuming will be unhappy and require some financial concession to retain and grow.
+
+Example of Monthly Minimum
+Suppose that a customer commits to a minimum of usage of 500 units per month for a 12-month contract period. In exchange the customer is awarded a 20% volume discount off the list price of $5 to per unit price of $4. Therefore the customer agrees to pay a minimum of $2,000 per month (500 units x $4 per unit) regardless of whether their usage is higher or lower than 500 units.
+
+monthly minimum usage-based pricing contract example
+Month 1: Consumption of 500 units x $4/unit  = $2,000, which is equal to the monthly minimum so the amount invoiced is $2,000.
+Month 2: Consumption of 400 units x $4/unit = $1,600, which is less than monthly minimum of $2,000 so the amount invoiced is $2,000.
+Month 3: Consumption of 600 units x $4/unit = $2,400, which is greater than monthly minimum so the amount invoiced is $2,400.
+The total price for the first 3 months is $2,000 (month 1) + $2,000 (month 2) + $2,400 (month 3) = $6,400.
+
+Real World Example of Monthly Minimum
+It is rare to find examples of monthly minimum pricing on a public website.  Many SaaS and cloud vendors will negotiate a unique price schedule with each account that is only documented in the customer’s order form.  Others may have a standardized price schedule for monthly commits, but do not publish the details online.  However, there are exceptions.
+
+Below is an example of a monthly commitment pricing table for a cloud-based language understanding service.  Customers can send text inputs to the cognitive service and it will interpret the end users command.  Pricing is based upon the number of language transactions per month.  The customer can pay a list price of $1.50 per 1,000 transactions or get a discounted rate by committing to a certain monthly volume as outlined in the table below.  Note, that transactions in excess of the contracted minimum are charged an overage fee.
+
+example of a monthly minimum with overage fees
+For additional details on the example monthly commitment pricing above visit the Azure Cognitive Services page.
+
+Contract Type 3
+Spend Commitment
+The customer agrees to purchase a minimum dollar amount of usage-based products over a period of time in exchange for a significant discount. The time period could be single quarter, half year, full year, or multi-year contract term.  The balance of spend is tracked cumulatively over the months.  At the end of the commit period if the customer’s spend is less than the commitment, a “true up” payment is owed to satisfy the remaining obligations.
+
+Spend Commits are similar in principle to the Monthly Minimum contract with the key difference being the time interval that the commit has to occur within.  In other words, a Monthly Minimum contract is really a Spend Commit with a monthly true up.  Unlike the Monthly Minimum, which guarantees an evenly distributed revenue pattern across the contract lifecycle (excluding overages), the consumption pattern with a spend commit could be lumpy and inconsistent.  The customer could make all 80% of purchases in the first 3 months of an annual commit and spread the remaining 20% of the last 9 months.
+
+Example of Spend Commitment
+For example, suppose a customer agreed to spend $120K on usage-based services over a 12-month period in exchange for a 30% discount from the list price.  The customer spends $10K per month to satisfy the obligation within the 12 month commit period as illustrated in the table and chart below.
+
+Spend Commitment usage-based pricing example
+Month 1: $10K is spent, bringing total cumulative spend to $10K and remaining obligations to $110K.
+Month 2: $10K is spent, bringing total cumulative spend to $20K and remaining obligations to $100K.
+Month 3: $10K is spent, bringing total cumulative spend to $30K and remaining obligations to $90K.
+The number of usage-based pricing contracts with spend commitments is far lower than the other types of structures (e.g. prepaid, monthly minimum, tiered subscriptions).  Spend commits are usually reserved for larger, strategic accounts and negotiated in a bespoke manner with each individual account.  As a result, there are few real world examples of spend commitment structures published on the websites of SaaS and cloud companies.
+
+Contract Type 4
+Tiered Subscription
+The customer pays a fixed fee per month for a bundle of features and a pre-defined amount of usage. Usage-defined subscriptions look a lot like the feature-defined subscription tiers common to most service offerings.  The key difference is that usage-defined subscription tiers are primarily defined by the allotment or range of usage included, which is often the top differentiating feature listed right below the price.
+
+tiered subscription usage based pricing
+Most usage-defined subscriptions are packaged into tiers – each with an allotment or predefined range of consumption included.  The most common is a four-tier model which is often referred to as the “free,” “good,” “better,” and “best” model. The lowest (free) tier may be a freemium offer that includes a minimum number of units per month (e.g. 100), which offers the customer enough consumption to experiment with the product, but not enough to derive significant commercial value.  The next (good) tier is typically an entry level, paid offering that appeals to price-sensitive buyers. The good tier might include a higher number of units per month (e.g. 1000) plus a bundle of bare minimum entitlements.  Each successive tier (better and best) will continue to add more units to consume and more features.
+
+Example of Tiered Subscription
+For example, assume that the vendor offers a four-tiered subscription model as illustrated above.  Suppose a customer has selected the “Business” plan which allows consumption of 10,000 to 20,000 units for a fixed fee of $300 per month.
+
+tiered subscription usage-based pricing example
+Month 1: Usage is 7,500 units. Even though it is below the range for the Business package the customer pays $300.
+Month 2: Usage is 11,000 units. The usage is within range for the Business package and the customer pays $300.
+Month 3: Usage is 16,000 units. The usage exceeds the range for the Business package and the customer pays $300 subscription fee plus overage fees of 1000 units x $0.02 per unit = $20 for a total of $320.
+Real World Example of Tiered Subscription
+Tiered subscriptions are one of the most popular contract structures for usage-based pricing.  Customers get a predictable, fixed monthly fee that they can budget around and vendors get a predictable, recurring revenue stream.  There are thousands of examples of usage-defined tiered subscription pricing published on SaaS and cloud provider websites.
+
+Below is an example of a five tier model.  At each successive pricing tier the monthly usage allowance increases along with other features and entitlements.  The value metric is the number of tasks per month.
+
+Example tiered subscription contract structure with tiers being differentiated by usage allowance per month
+For additional details about the example usage-defined tiered subscription shown above visit the Zapier pricing page.

@@ -1,0 +1,1182 @@
+
+Chapter 0: What is Usage-Based Pricing?
+In a usage-based pricing model the customer is charged based upon their actual consumption of a cloud or SaaS service. If the customer uses the product for one hour they are only billed for a single hour. If the customer doesn’t use the product at all, they will not have to pay any fees. Usage-based pricing is an increasingly popular alternative to the subscription pricing model. With the subscription model the customer is charged a fixed fee per month regardless of whether the customer uses the product each day of the month or not at all.
+
+The charges a customer pays each month in a usage-based pricing model are determined from a simple formula:
+
+Charge = per unit price x quantity of units consumed
+price times quantity equals charges
+Usage-Based Pricing Guide
+Plain English Explanations for SaaS and Cloud Professionals
+Usage-based pricing is growing in popularity with SaaS and cloud companies.  Although the finance and engineering teams often take the lead on implementing the model, usage-based pricing is only successful when the whole business understands the model.  Everyone from the Human Resources professionals managing sales compensation plans to the Customer Success Managers answering questions about the monthly bill need to understand the nuts and bolts of how usage-based pricing works.  
+
+To assist all the employees in SaaS and cloud companies who are trying to understand how usage based pricing works, we developed this guide. It’s written in plain English and offers examples and illustrations to understand each of the key concepts from packaging and presentation to discounting and contracts to billing and investor reporting.
+
+Chapter 1 : Value Metrics
+Time, Transactions, Volume
+The crux of any usage-based pricing model is the unit of metric or value metric for the per unit charge.  In traditional subscription models, the value metric is typically the number of registered users, but with usage-based pricing SaaS and cloud companies can select from an infinite number of metrics.
+
+value metrics for usage-based pricing
+There are four common types of value metrics common in usage based pricing:
+
+Time
+Transactions
+Volume
+Count
+Reach Chapter 1: Value Metrics »
+
+Chapter 2: Discounting Models
+Volume, Tiered, Stair Step
+With usage-based pricing SaaS and cloud providers can generate higher revenues by driving greater consumption. As a result, technology vendors will typically create discount schedules that offer customers a financial incentive to use more of the product. 
+
+four popular discounting models for usage-based pricing
+There are four popular discounting models that are most common:
+
+Single, fixed rate
+Tiered
+Volume
+Stair step model
+Read Chapter 2: Discounting Models »
+
+Chapter 3: Contract Structures
+Prepaid, Monthly Minimums, Spend Commits
+As consumption grows, most customers prefer to have the cost savings and predictable expenses that come with a long-term contract even if means losing the flexibility to cancel at any time.  
+
+popular contract structures for usage-based pricing
+There are four popular contract structures for usage-based pricing:
+
+Prepaid usage
+Monthly minimums
+Spend commitments
+Tiered subscriptions
+Read Chapter 3: Contract Structures »
+
+Chapter 4: Packaging Strategies
+Bundles of Entitlements, Features, and Allowances
+Many SaaS and cloud providers bundle their features, entitlements, and usage allowances into three tiers, each with a fixed price point. These packages make it easier for customers to select a bundle of services that is most appropriate for their use cases.
+
+three column pricing table for SaaS companies with usage-based pricing
+There are three popular strategies for packaging services with a usage-based pricing model:
+
+Feature-defined tiers
+Usage-defined tiers
+Technology-defined tiers
+Read Chapter 4: Packaging Strategies »
+
+Chapter 5: Presentation Formats
+Grids, Tables, Sliding Scales
+Usage-based pricing can be complex and intimidating to buyers.  If the customer cannot understand how they will be billed for consuming the service, they might delay a purchase or select an alternative vendor with a simpler pricing model.  As a result, SaaS and cloud providers invest time and energy to ensure they present their pricing in a format that is easy to understand.  
+
+grid style presentation format for usage-based pricing with two rows and three columns representing different products
+There are five common models:
+
+Grid format
+Table format
+List format
+Column tiers
+Sliding scale
+Read Chapter 5: Presentation Formats »
+
+Chapter 6: Quantity Calculations
+High Water Mark, Percentile Billing
+The amount that the customer consumed during any given month is not necessarily the amount of usage that the customer will be billed for. A customer may have consumed 10,00 units, but only be billed for 8,000. SaaS and cloud providers use a variety of strategies for calculating the “billable usage quantity.” Some approaches are designed to more fairly bill the customer and others are intended to boost revenues.
+
+billable usage quantity calculation for usage-based pricing
+A few of the more popular models include:
+
+High Water Mark
+Percentile Billing
+Quantity Caps
+Usage Pooling
+Read Chapter 6: Quantity Calculations »
+
+Chapter 7: Usage-Based Billing
+Metering, Rating, Invoice Generation
+
+The billing process can be the most complex aspect of a usage-based pricing model, particularly when prepaid units, monthly minimums, spend commitments contracts are involved or non-billable usage categories such as free credits or rollover units can apply. Determining the appropriate price and billable usage quantity often require multiple steps and mathematical operations.
+
+four step process for usage-based pricing
+There are four steps to the usage-based billing process:
+
+Metering Consumption
+Data Mediation
+Rating Engine
+Invoice Generation
+Read Chapter 7: Usage-Based Billing »
+
+Chapter 8: Investor Reporting
+ARR, RPO, Net Retention
+
+Investors want to compare the financial performance of companies with usage-based pricing to the broader community of SaaS and cloud vendors. As a result, technology providers with usage-based pricing are asked to report on many of the same recurring revenue metrics that companies with traditional subscription pricing models report on.
+our of the most common investor metrics tracked by companies with usage-based pricing models are:
+
+Annualized Recurring Revenue (ARR)
+Remaining Performance Obligations (RPO)
+Net Revenue Retention (NRR)
+Large Customer Expansion
+
+Learn More
+Executive Overview
+Usage-Based Pricing for SaaS and Cloud Providers
+Usage-based pricing is not a new concept.  It has been a popular model throughout the history of computing from the early days of timesharing mainframes to the present day.  However, it is currently enjoying a renaissance in the current era of cloud computing and software-as-a-service (SaaS) as it has been one of the key success factors contributing to hyper growth business models from organizations such as Twilio, DataDog, and Snowflake. These organizations have been able to achieve extraordinarily high levels of revenue growth and net revenue retention that have captured the attention of Wall Street analysts and Silicon Valley investors.
+
+While venture capitalists and private equity firms are attracted to the economics of usage-based pricing, the management teams at operating companies like it because of the flexibility and creativity it enables with monetization models.  With usage-based models, sales reps can configure contracts, pricing, packaging, and payment terms to best match the budget, cash flow, and risk dynamics of any specific customers.  Product managers can select from an almost infinite number of value metrics to perfectly balance the value the customer receives with the price that is paid.
+
+Table of Contents
+Adoption of Usage-Based Pricing
+Tech Sectors – SaaS, cloud, data services
+Other Industries – Energy, telecom, industrial
+For Customers
+
+Benefits – Costs, friction, and risk
+Challenges – Discounts, budget, and legal
+For SaaS & Cloud Providers
+
+Benefits – New customer acquisition, rapid expansion
+Challenges – Forecasting, cash flow, capacity planning
+Implementation Considerations
+Complexity – Pricing, quantity, contracts
+Organizational Impacts – Sales, product, finance
+Adoption in Technology Industry
+SaaS, Cloud, and Data Services
+Historically, usage-based pricing models have been most popular in applications and services for which the traditional per-user, per-month pricing model common in subscription offerings could not be applied.  Examples include infrastructure services such as:
+
+Infrastructure – All of the major cloud providers including Amazon Web Services, Microsoft Azure, Google Cloud Platform, and Oracle Cloud have usage-based pricing for their compute-as-a-service, storage-as-a-service, and database-as-a-service offerings.
+Messaging – Telecom and networking services have always standardized on usage-centric pricing models. Content distribution networks are priced based upon the data volumes transferred. VOIP applications are priced based upon minutes of use. Email and SMS text services are priced on message volume
+Data Services – API-centric services that provide employment verification, consumer identity verification, business entity validation or financial credit reporting are typically priced based upon the transaction volumes executed each month.
+Marketing – Many marketing automation applications are priced based upon the number of contact records in the database. Most content-centric services from distributing press releases to automatically generating contact are priced per word. Digital advertising is priced based upon end-user impressions.
+Over the past few years, categories such as internet of things, artificial intelligence, machine learning, observability, search, and certain types of cybersecurity products have shifted towards consumption models as well.
+
+SaaS and cloud categories with usage-based pricing - infrastructure,messaging, management, data and marketing services
+Adoption Beyond Tech
+Usage-Based Pricing in Energy, Telecom, and Aerospace
+In this guide we are focused on how usage-based pricing supports SaaS and cloud business models, but it is important to note that consumption pricing models are used in almost every industry segment.  A few examples include:
+
+Energy – Every business from professional services to industrial manufacturing needs electricity and sometimes natural gas to power their day-to-day operations.  Commercial utility services are typically priced on a consumption basis such as cents per kilowatt hours or dollars per thousand cubic feet.
+Telecommunications – Local, long distance, and international voice and data services are offered in a variety of formats.  Some businesses pay a fixed fee per month for services with a consistent predictable, usage pattern.  Others with irregular usage are typically purchased on a price-per-minute basis.
+Aerospace – Aircraft engine manufacturers offer as-a-service versions of their jet propulsion systems that include not only the equipment, but spare parts and servicing.  Pricing is consumption based and determined by the number of hours of use.
+Transportation – While some larger companies have their own vehicle fleets, many organizations lease, rent or consume transportation-as-a-service offerings.  Agreements for short-term use of cars, vans, and trucks are often priced based upon consumption with the value metric being the number of miles driven.
+Real Estate – Traditional commercial lease arrangements are typically priced with a standard fixed fee per month and various add-on charges.  However, new co-working models offer on-demand space rental that is priced based upon consumption at a per day or per seat per hour rate.  
+Customer Benefits
+Lower Cost, Lower Friction, and Lower Risk than Subscriptions
+
+Usage-based pricing offers a number of advantages to customers in the early stages of adopting a new SaaS or cloud product. 
+
+Low Cost  – Perhaps, the biggest advantage of usage-based pricing – as compared to subscriptions – is that you you pay only for what you use.  If you use the product for one day you are only billed for consumption during a single day (not the full month).  If you don’t use the product at all then you will not have to pay.
+Low Friction – In many cases, the customer experience for a new user that wants to try a product is almost frictionless.  Often, the customer can experiment with the product using a free trial then upgrade to a more feature-rich paid plan without having to speak to a sales representative.
+Low Risk – Many usage-based pricing models do not require a customer to sign an annual contract.  The customer can register online for a monthly, pay-as-you-go plan that bills in arrears via a credit card.  If the customer decides to discontinue using the service, there are no additional fees to be paid.
+benefits to customers from usage-based pricing - low cost, low friction, low risk
+Customer Challenges
+No Discount, No Budget Predictability, No Data Protection
+For customers that rely on the product for business-critical functions and need to consume high volumes on a daily basis, many of the advantages outlined above can quickly turn into disadvantages.
+
+No Discounts on Pricing– With a no contract (monthly, pay-as-you-go plan), the customer typically pays the list price for each unit consumed. Although, the customer is only paying for what they use, they are paying more per unit than they could or should.
+No Predictability for Budgets – The amount billed each period can vary significantly from month-to-month. Although there may not be friction with the vendor, there will be friction with the finance department as business users are not able to predict how much they will spend and when they will spend it.
+No Legal or Data Protection – As more and more users adopt the service across the customer’s organization, there is more sensitive data stored on the cloud platform and more dependency on the service performing as expected. For customers with high volumes of usage, the lack of a formal contract is introducing risk.
+These higher costs, friction, and risk can be mitigated by entering into a formal contract arrangement with the SaaS or cloud computing provider.  With a contract the customer can negotiate a discounted price, a predictable payment plan, and secure data privacy protections as well as service level agreements.
+
+Benefits to SaaS and Cloud Providers
+New Customer Acquisition and Rapid Expansion
+Usage-based pricing offers SaaS and cloud providers a number of business model advantages as compared to traditional subscription contracts:
+
+New Customer Acquisition – When paired with a product-led growth model, usage-based pricing offers an almost unparalleled model for new customer acquisition.  End-users are attracted to the combination of low cost, low friction, and low risk.  Most prefer the experience over subscription-oriented, sales-led processes that drive customers to sign long-term contracts without offering any hands-on experience with product.
+Pricing Flexibility – Usage-based pricing offers an almost infinite number of choices. Product managers can tie pricing to millions of value metrics based upon transaction count, volume processed, or time consumed. If there isn’t a standardized metric that fits perfectly, SaaS and cloud providers can create their own new, custom value metric for pricing.
+Rapid Expansion – Most subscription pricing models are tied to user counts.  Each additional user requires a contract amendment which may require approvals from procurement, legal, and finance.  With usage-based pricing there is no approval required to scale.  Consumption can quintuple month-over-month without a contract amendment.  As a result, revenue has the potential to grow much faster.
+Challenges for SaaS and Cloud Providers
+Forecasting, Cash Flow, Capacity Planning
+There are a number of significant economic challenges that SaaS and cloud providers will need to overcome when scaling usage-based pricing models.
+
+Revenue Forecasting – Unlike subscription pricing models for which there is a committed monthly fee for the duration of the contract, usage-based pricing offers finance organizations little visibility into future revenue streams. Even if the customer purchases prepaid units, the timing of the consumption and associated revenue recognition can vary.
+Cash Flow – Customers on monthly, pay-as-you-go plans will be invoiced in arrears for the services consumed. In some cases, the SaaS or cloud provider will need to pay their suppliers as far as 30 to 60 days in advance of when they receive payment from the customer.
+Capacity Planning – With limited ability to forecast future usage, it is challenging to ensure that there is adequate capacity available for spikes in demand. Over-provision and your expenses will be high relative to revenues which will lower gross margins. Under-provision and your revenue maybe constrained by an inability to service demand.
+3 challenges SaaS and cloud vendors face with usage-based pricing - cash flow, revenue forecasting, capacity planning
+Many of the forecasting, cash flow, and capacity planning challenges can be reduced by converting customers onto longer term contracts with monthly minimum fees and some percentage of the committed revenue paid in advance. 
+
+The Complexity of Usage-Based Pricing
+Pricing, Discounts, Contract Structures
+The charges a customer pays each month in a usage-based pricing model are determined from a simple formula:
+
+Charge = per unit price x quantity of units consumed
+
+However, in practice the calculations are rarely this simple.  Complexities include:
+
+Pricing – The pricing may be based upon more than one variable.  For example, a customer may be charged $0.50 for each hour the product is consumed and $0.10 for each GB of data processed.
+Discounts – The final charges the customer pays may be discounted based upon the volume consumed.  For example, 5,000-10,000 units might qualify for a 20% discount, 10,000-20,000 units a 30% savings, etc.
+Non-Billable Usage – Certain types of transactions such as those that don’t successfully complete may be deemed non-billable.  Before quantity can be determined the non-billable units must be deducted.
+Rounding – Actual usage is rounded up before the billing process occurs.  For example, the customer may have used the service for 5 minutes on three instances, each of which are rounded up to 1 hour.
+Free/Included Units – The customer may be entitled to a certain number of free credits per month.  For example, the customer may have consumed 1,000 units but is entitled to 500 free units per month.
+Prepaid Units – The customer may have purchased a certain volume of usage in advance in exchange for a discount. They purchased 1,000 units and consumed only 100 so they owe nothing this month.
+Rollovers – Unused allowances from prior months may have been eligible to rollover into the current billing period.  300 units rolled over and the customer used only 200 this month so there is no charge.
+Minimum Fee – The customer may have signed a contract that stipulates they pay a minimum fee each month.  As a result, $500 may be billed even though the customer only consumed 100 units at $1/unit.
+Organizational Impacts and Workload
+Sales, Product, Finance
+There are a number of significant economic challenges that SaaS and cloud providers will need to overcome when scaling usage-based pricing models.
+
+Sales reps have to learn how to educate customers on complex products such as prepaid units as well as the associated billing policies for rollovers, expiration dates, and overage fees.
+Rev Ops needs to devise new compensation strategies that fairly pay sales reps based upon newly booked contracts for which the actual revenues might be 2-3X what is committed in the agreement.
+Product Management needs to identify the best unit of measure (value metric) to use for pricing consumption and devise discounting strategies that incentivize customers to increase consumption.
+role of sales, product, engineering, finance, customer success with usage-based pricing
+Engineering needs to develop product features that meter consumption for each individual customer and provide a clean, accurate feed of data to downstream customer portal and billing systems.
+Finance will need to take a feed of raw data on usage and quickly convert it into customer-friendly invoices, journal entries to recognize revenue, and operating metrics to share with investors.
+Customer Success will need to become experts on helping customers accurately forecast future usage patterns so they don’t waste funds on overage fees, expired credits or true up payments.
+
+================================================
+
+Value Metrics for Usage-Based Pricing
+Monetizing Consumption
+
+In a usage-based pricing model, the charges a customer is invoiced for each period are typically based upon a simple formula – quantity of units consumed x price per unit.  One of the first decisions that a SaaS or cloud provider will need to make is what is the “unit” or value metric that the pricing is based upon. 
+
+With subscription models tie most SaaS and cloud providers tie their pricing to a single value metric – the number of users that have registered accounts on the product. However, in the world of usage-based pricing, there are thousands of different value metrics. 
+
+Some of the most popular include:
+
+Number of API calls
+Volume of GB transferred
+Hours of use
+Number of connected devices
+Usage-based pricing can be based upon just a single value metric (e.g. API calls) or it can be multi-dimensional combining multiple value metrics (e.g. API calls + GB transferred). 
+
+Four Types of Value Metrics
+Time, Transaction, Volume, and Count
+
+The thousands of different value metrics can be grouped into four primary categories:
+
+Time – Days, hours, minutes, seconds
+Transaction – Events, APIs, test runs
+Volume – TB, GB, KB of data
+Count – Devices, locations, database records
+four types of value metrics for usage-based pricing - time, transactions, volume, count
+SaaS and cloud providers can base their pricing strategy upon one or multiple value metrics depending upon how they want to monetize their solution.
+
+Metric Type 1
+Time-Based Value Metrics
+Seconds, Minutes, Hours, Days as Units of Measure 
+
+Pricing is based upon the length of time the service is consumed for. Time could be measured in hours, minutes, seconds, milliseconds, or another interval. Most of the cloud infrastructure-as-a-service (IaaS) charge with prepackaged combinations of virtual CPUs, GB of disk space, and GB of RAM available or rent on a per hour basis.
+
+example of time-based value metrics for usage-based pricing showing table of start and end times with elapsed time calculation
+Many communications-as-a-service also charge based upon time the service is used. The primary value metric is typically the number of minutes for a live phone call, conference call, or video session.
+
+Below is an example of a managed cloud database that uses a time-based value metric.  The cloud provider offers different combinations of vCPUs, RAM, and storage that are charged on a per hour basis.
+
+Time Based Value Metric Example showing Cloud SaaS offered on a per hour price basis
+View additional details about the example pricing model on the MongoDB website.
+
+Metric Type 2
+Transaction-Based Value Metrics
+Discrete Events as Units of Measure 
+
+Pricing is based upon the number of discrete transactions processed on the platform. A “transaction” could be a wide variety of value metrics such as API requests, user sessions, test runs, service invocations, database queries, or thousands of other variables.
+
+example of transaction-based value metrics for usage-based pricing shows a timeline of different customers using email and text messaging services
+For example, messaging providers charge based upon the number of emails or SMS text messages sent from their platforms. AI-powered computer vision applications charge based upon the number of images processed or the number of objects (labels, faces, landmarks, logos, text) identified within images.
+
+Below is an example of a image/facial recognition service that uses a transaction-based value metric.  The cloud-based service is priced based upon the number of API calls per month.
+
+Transaction Based Metric Example
+View additional details about the example pricing model above on the Amazon Web Services page.
+
+Metric Type 3
+Volume-Based Value Metrics
+Units of Measure based upon Continuous Flow
+
+Pricing is based upon the amount of data processed or stored on the platform. Data could be measured by the quantity of raw volume in kilobytes, gigabytes, terabytes.
+
+illustration of volume-based value metrics for usage-based pricing showing data flowing in and out of cloud computing service
+For example, cloud infrastructure providers charge for storage, networking, monitoring, and security services based upon the GB of data stored, transferred, ingested, or scanned. Data could also be measured by the number of records. Many CRM and marketing automation vendors price services based upon the number of contacts stored in the system.
+
+Below is an example of a cloud platform service that uses a volume-based value metric.  The pricing is based upon a volume value metric – the GB of data transferred out (egress) of the cloud data center.
+
+Volume based metric example for network bandwidth
+View additional details about the example pricing model above on the Google Virtual Private Cloud page.
+
+Metric Type 4
+Count-Based Value Metrics
+Units of Measure based upon Sampling
+
+Pricing is based upon the count (number) of devices, machines, locations, or products being managed, monitored, or serviced by the platform. With a truly usage-based pricing, the number of devices would not be contractually defined, but vary dynamically with the flexibility to add new endpoints and remove others during the billing period.
+
+example of count-based value metrics for usage-based pricing showing pcs and servers are under management by cloud service
+Many IoT services price based upon the number of vehicles, cameras, sensors, windows, machines, or other devices connected to the service. Cloud monitoring and security services charge in correlation to the number of hosts, servers, desktops, or network devices protected.
+
+Below is an example of a cloud monitoring service that uses a count-based value metric.  The pricing is based upon the number of on-premise network devices (switches, routers, firewalls) being monitored for health and performance.
+
+Example of count-based value metric for monitoring health of network devices on premise
+View additional details about the example pricing model above on the DataDog website.
+
+Rate Multipliers
+Secondary Units of Measure
+
+Usage-based pricing does not need to be based upon a single value metric.  It could be tied to two or more variables.  One common approach that many SaaS and cloud providers use is the concept of a rate multiple.
+
+The price the customer pays is multiplied or divided based upon a second dimension such as:
+
+Date & Time
+Performance
+Outcome
+Network
+Use type
+rate multipliers for usage-based pricing - date/time, network, performance, outcome, use type
+Date & Time
+Peak vs non-peak
+
+The price for a service might be higher at certain dates and times than others.  Many providers have the concept of “peak hours” versus “off hours.”  For example, customers might pay a 50% premium to access a service on Monday-Friday from 8am-5pm.
+
+Performance
+Service Level Agreement
+
+Customers might be offered the option to obtain faster process or higher level of service in exchange for a premium fee.  For example, an audio transcription service (e.g. converts a podcast into text) might charge $1.00 per minute for the standard SLA of 24-hours and $2.00 per minute for the expedited delivery in 12 hours.
+
+Outcome
+Success vs Failure
+
+Customers might pay more or less depending upon whether or not the SaaS or cloud service is able to achieve the desired outcome. For example, an API verifying someone’s current employer or home address might charge $0.10 for a successful confirmation and $0.01 for a failed attempt.
+
+Network
+In-Network vs Out-of-Network
+
+Some SaaS and cloud providers have a concept of “in network” and “out of network” services that impacts pricing. For example, a fintech platform might charge only $0.50 to transfer funds between two customers that both use its savings accounts. However, transfers to accounts at external banks might be charged $5.00.
+
+Use Type
+Customer Critical vs Internal Use
+
+Customers might pay more for consumption that is tied to commercial use versus product development, testing, or other internal use cases.  For example, a marketing platform might charge $10.00 per hour for a live customer production use case, but only $1.00 per hour for testing performed by the quality assurance team.
+
+Multi-Dimensional Pricing
+1 to N Units of Measure
+
+As metering technology advances and rating engines grow more sophisticated, more SaaS and cloud providers are introducing multi-dimensional pricing based upon three or more variables.
+
+N-Metered Variables – Pricing could be based upon 1 to n consumption-related variables. For example, the price for a single cloud service could be determined based upon the number of transactions processed, the volume of data ingested, and the length of time it was consumed.
+Metered + Non-Metered Variables – Pricing could be based on 1 to n consumption-related variables plus other fixed fees that are independent of usage. For example, the price for a cloud service might consist of a fixed monthly platform free, a contracted number of users, and a metered variable such as data ingested.
+Below is an example of a cloud integration service that has two dimensional pricing.  The first value metric is a transaction metric – the number of tasks requested per hour.  The second value metric is a volume metric – the GB of data transferred.
+
+example of two dimensional usage based pricing with two different value metrics for cloud integration
+View additional details about the example pricing model above on the Confluent website.
+
+========================
+
+Discounting for Usage-Based Pricing
+Incentivize Higher Consumption
+Discounting is another example of the power and creativity that is available with usage-based pricing as SaaS and cloud providers can choose from an almost infinite number of possibilities to optimize their business model.
+
+For example, some SaaS and cloud providers offer discount schedules in which the customer enjoys progressively better pricing as usage increases:
+
+1,000 units of consumption qualifies for a 10% discount
+5,000 units of consumption qualifies for a 15% discount
+10,000 units of consumption qualifies for a 20% discount
+Creativity can be applied to the formula calculations as well.  For example, there are two different ways the discount table above could be implemented. Suppose the customer consumed 8,000 units of a service with a list price of $1/unit:
+
+Calculation 1 – All 8,000 units are priced at 15% off $1 ($0.85)
+Calculation 2 – The first 1,000 units get no discount ($1.00 each), units 1,001-5,000 are priced at 10% off ($0.90), units 5,001-8,000 are priced at 15% off ($0.85)
+Four Types of Discounting for Usage-Based Pricing
+There are four models of discounting for usage-based pricing that have become popular amongst SaaS and cloud providers:
+
+1) Single Rate
+
+Apply flat rates to usage for linear pricing models.  For example, the customer is billed $0.50 per transaction whether they performed 1 transaction or 1 million transactions.
+
+2)Tiered
+
+Compute charges at multiple rates for multiple tiers.  For example, the customer is billed $1 for the first 1000 units consumed, $0.50 for the next 1000 units, and $0.25 for any additional units.
+
+discounting strategies for usage based pricing
+3)Volume
+
+Apply dynamic volume discounts based upon usage.  For example, the customer is billed if $1/unit if volume is below 1000. Above 1000, all units from 1 to n are billed at a discounted rate ($0.50).
+
+4)Stair Step
+Tiered packages – each with a maximum allowance. For example, package A includes 500 units for $100/month. Customers of package A are billed $100/month whether they use 0, 250, or 500 units.
+
+Discount Type 1
+Single Rate
+The single rate model for discounting is the simplest and most popular approach. The single rate model goes by many alternative names such as “flat rate,” “quantity,” and “per unit.”
+
+In this single rate model the customer negotiates a simple discount structure that results in one fixed rate per unit.  The rate is the same independent of how much the customer consumes. The formula to compute the amount owed is simply:
+
+Price x Quantity = Usage-Based Charge
+
+A better description for the single rate model would be to call it a single rate tier – to differentiate it from the other usage-based pricing models which have multiple “tiers” of pricing as described below.
+
+single rate usage based pricing model
+Example of Single Rate Discounting
+For example, suppose the list price was $5 per unit and the customer negotiates a 20% discount in exchange for an annual contract with a specific dollar commitment.  A 20% discount on $5 per unit results in a single rate of $4 per unit.  As a result, the customer would pay:
+
+If 100 units are consumed then the customer is charged $400 (100 units x $4 per unit)
+If 300 units are consumed then the customer is charged $1,200 (300 units x $4 per unit)
+If 500 units are consumed then the customer is charged $2,000 (500 units x $4 per unit)
+Discount Type 2
+Tiered Discounting
+The tiered discounting model for usage-based pricing offers customers an incentive to consume more by offering a discount that increases with increased consumption.
+
+The tiered model is also referred to as graduated pricing. The calculations for tiered pricing are more complex than in other models as the price x quantity calculation must be performed for each different tier.
+
+Tier 1: A baseline discount level of A% is charged for the first n units.
+Tier 2: A slightly higher discount level of B% is charged for the next n units.
+Tier 3: Another slightly higher discount level of C% is charged for the next n units. And so on.
+It is rare to see a tiered model displayed on a vendor’s website. Tiered pricing is typically implemented as part of discounting strategy for a longer term contract. Discounts might be applied based upon the number of units consumed or alternatively, based upon the dollar value of the spend.
+
+tiered discounting usage-based pricing
+Example of Tiered Discounting
+For example, assume that the vendor offers a three-tiered discounting model with the discounted rate of $6 per unit for the first 200 consumed, $4 discounted rate for units 201-400, and $2 discounted rate for units 401+. If the customer consumes 500 units during the billing cycle then the amount owed would be calculated like this:
+
+Tier 1: The first 200 units are charged at a rate of $6/unit. The subtotal for tier 1 is 200 x $6 = $1,200.
+Tier 2: The next 200 units are charged at a rate of $4/unit. The subtotal for tier 2 is 200 x $4 = $800.
+Tier 3: The last 100 units are charged at a rate of $2/unit. The subtotal for tier 3 is 100 x $2 = $200.
+The total price is $2,200, which is the sum of the three subtotals ($1,200 + $800 + $200).
+
+Real World Example of Tiered Discounting
+Below is an example of a tiered discounting model offered for data transfer out (egress) from a content distribution network.  The rate varies based upon the volume of GB transferred from different geographic locations.  The level of discount offered increases (and the pricing decreases) in tiers as the volume crosses certain usage thresholds.
+
+example of tiered discount table from cloud provider showing various rates for data transferred out of a cloud environment
+For additional details on the example tiered discount pricing model above view the Google Cloud Platform Content Distribution Network page.
+
+Discount Type 3
+Volume Discounting
+In the volume discounting model for usage-based pricing is similar to the tiered model, but with a different approach to calculating the amounts owed. Like the tiered model, the volume model also offers customers an incentive to consume more by offering a discount that increases with consumption.
+
+Tier 1: A discounted rate of A% (list price of X per unit) is charged to customers with volume under a threshold of n.
+Tier 2: Once the customer consumes n+1 units, the discount increases to B% (list price drops to Y per unit) for all units.
+Tier 3: Another, slightly higher discount level of C% results in a lower price of Z per unit is charged once the customer reaches the next threshold. And so on.
+volume discounting for usage-based pricing
+Example of Volume Pricing
+For example, suppose that the vendor offers three discount tiers:
+
+Tier 1: If 100 units are consumed, then the customer is charged the $6 per unit rate. The price is 100 x $6 = $600.
+Tier 2: If 300 units are consumed, then the customer is charged the $4 per unit rate. The price is 300 x $4 = $1,200.
+Tier 3: If 500 units are consumed, then the customer is charged the $2 per unit rate. The price is 500 x $2 = $1,000.
+Real World Example of Volume Pricing
+Below is an example of a volume discounting model offered for an image recognition service that can detect faces, celebrities, landmarks, brands, and other objects.  The price per unit for all units decreases (and the discount increases) as the number of transactions crosses certain volume thresholds.
+
+example of a volume discount for image recognition service pricing is based upon number of transactions
+For additional details on the example volume discount pricing model above view the Azure Cognitive Services pricing.
+
+Discount Type 4
+Stair Step Discounting
+The stair step discounting model for usage-based pricing offers more predictability to customers by guaranteeing a fixed price for usage as long as it is within a certain bracketed range.
+
+Tier 1: If the customer consumes between a range of minimum A (e.g. 0) and a maximum B (e.g. 200), they pay a fixed price of $X for the billing period.
+Tier 2: The next range of between minimum B (e.g. 200) and maximum C (e.g. 400), they pay a fixed price of $Y for the billing period.
+Tier 3: Additional tiers define additional ranges for increasing prices per month.
+example of usage-defined multi-tiered pricing model
+There are a few differences to note with the stair step model as compared to the single rate, volume, and tiered models.
+
+With stair step the focus is on the total price the customer pays during the billing period, which is different than the single rate, volume, and tiered models that focus on the price per unit.
+Since the total price the customer pays goes up as consumption increases.  As a result, the total pricing in stair step tables increases with volume.  In the single rate, volume, and tiered models, the per unit price decreases with volume.
+stair step usage based pricing model example
+Example of Stair Step Pricing
+For example, assume that the vendor offers a three-tiered stair step model as outlined in the diagram above.
+
+Tier 1
+If the customer is in the lowest tier, then they enjoy a baseline level of discount and a standard monthly price of $1,000.  As a result,
+
+0 units are consumed, the customer pays $1,000.
+100 units are consumed, the customer pays $1,000.
+199 units are consumed, the customer pays $1,000.
+Tier 2
+If the customer is in the middle tier, then they enjoy a higher level of discount and pay a standard monthly price of $1,500 for usage between
+
+201 units are consumed, the customer pays $1,500.
+399 units are consumed, the customer pays $1.500.
+Real World Example of Stair Step Pricing
+Below is an example of a stair step discounting model offered for a shipping application.  An e-commerce site can print out shipping labels on demand to send out via carriers such as UPS, FedEx, DHL, and USPS.  The customer pays a fixed fee per month that is based upon the number of shipping labels printed.  Prices are broken into bracketed ranges that step up when certain volume thresholds are exceeded.
+
+example of stair step discounting model for shipping labels price per month decreases with more labels
+For additional details on the example stair step discount pricing model above view the Shippo website.
+
+Variations on Discounting Strategies
+Product vs Account Level Discounts
+
+The four discounting strategies can also be applied in many different ways.  For example, the discounts could be designed at an individual product level or an overall account level.  With a product-level model, the discounted price is based upon how many units of a particular service the customer consumes.  A discount of 20% off product A is offered for a volume of 10,000 units.   With the account-level model, the discounting strategies are based upon how much the customer spends across multiple products.   A 20% discount off the total monthly invoice price is offered for spend of $5,000 or higher on products A, B, and C.
+
+Most account-level discounting models are implemented as part of an annual contract structure.
+
+Automated vs Negotiated Discounts
+
+SaaS and cloud providers take different approaches to negotiating and applying discounts.  Some tech firms only offer these discounts to customers who negotiate sign an annual contract with hard-dollar commitments.  Other SaaS and cloud providers automatically apply discounts to all customers whether they have an annual contract or a monthly, pay-as-you-go plan.  These automated discounts are often based upon a universal discount schedule whereas the contract negotiated discount schedules might vary for each individual customer.
+
+========================
+
+Annual Contracts for Usage-Based Pricing 
+Convert Pay-as-You-Go, Monthly Customers to Long Term Agreements
+
+One big advantage of usage-based pricing — as compared to subscriptions — is that you cannot only pay-as-you-go, you pay only for what you use.  If you use the product for one day you are only billed for consumption during a single day (not the full month). While the pay-as-you-go model is attractive during the early stages of a customer’s relationship with a new vendor, typically does not scale well. As more and more team members begin to use the product, consumption grows along with the monthly bill.
+
+In many usage-based pricing scenarios, it is advantageous to both the customer and the vendor to switch from pay-as-you-go arrangement to a formal annual contract.
+
+Four Types of Contracts for Usage-Based Pricing
+There are four popular contract structures for usage-based pricing that vary in the level of flexibility offered to customers. These contract structures can be paired with various discounting models (flat rate, tiered, volume) and quantity models (block arrangements, high water mark) to design commercial arrangements that best meet the needs of their customers.
+
+The four contract structures are:
+
+1) Prepaid Usage with Monthly Drawdown
+The customer purchases 1000 prepaid units which expire in one year.  They can drawdown against the balance over the course of the year.  They might use all 1000 in the first month or in various periods throughout the year.
+
+2) Monthly Minimum with Overage Fees
+
+The customer agrees to a monthly minimum of $1000, which is the equivalent of 500 units @ $2 each.  If they use 500 units or less they will pay $1000. If they use more than 500 they will pay $1000 plus overage fees.
+
+popular contract structures for usage-based pricing
+3) Spend Commitment with True Up
+
+The customer agrees to spend $100K in the next 12 months in exchange for a discount.  If the customer spends less than $100K they will have to pay a “true up” fee at the end of month 12 to cover the remaining obligations.
+
+4) Tiered Subscription with Min/Max Range
+
+The customer selects tier A includes 1000 units for $100/month. Customers of tier A are billed $100/month whether they use 0, 500, or 1000 units.  If they use more than 1000 units, overage fees may apply.
+
+Contract Type 1
+Prepaid Usage
+In the prepaid usage model, the customer agrees to enter into a contract to purchase a fixed number of units of the product in exchange for a discount.  In general, vendors will offer a higher discount in exchange for a higher upfront commitment of spend from the customer. In other words, a higher volume of prepaid units purchased will result in a lower price per unit.
+
+As the customer consumes usage the prepaid units will be debited from the balance on the account, typically at the end of each monthly billing cycle. When the prepaid usage is depleted the customer can either purchase more prepaid units or transition to a pay-as-you-go model.
+
+Example of Prepaid Usage Drawdown
+Prepaid Usage example with monthly drawdown
+For example, suppose that a customer purchased 120 prepaid units as part of an annual contract.  If there was a drawdown of 10 units per month across the contract term (a consistent monthly usage pattern), then the balance would be depleted steadily down to zero prior to the expiration date as illustrated in the following table and chart.
+
+Month 1: Opening balance of 120 units – Consumption of 10 units = Ending balance of 110 units
+Month 2: Opening balance of 110 units – Consumption of 10 units = Ending balance of 100 units
+Months 3-12: Consumption of 10 units each month
+Month 12: Opening balance of 10 units – Consumption of 10 units = Ending balance of 0 units.
+The customer must now purchase more prepaid usage or switch to a pay-as-you-go model.
+
+Real World Example of Prepaid Usage
+Few SaaS and cloud providers publish their pricing for prepaid usage credits on their website.  Most will only share available discounts with customers that are signing long-term contracts.  However, there are exceptions.
+
+Below is an example of a price table for a cloud-based SMS text messaging service.  Customers can obtain a per unit price discount by purchasing usage in bulk.  The table shows the price to purchase different blocks of usage as well as the discounted per unit price for each package.
+
+example prepaid usage table for sms text messaging service with multiple packaged blocks of usage available to buy
+For additional details on the example prepaid usage pricing shown above consult the Alibaba Cloud Short Message Service page.
+
+Contract Type 2
+Monthly Minimum
+The customer agrees to pay a contracted minimum amount of dollars in spend per month in exchange for a volume discount. Often the minimum spend amount is converted into an allowance of units that the customer can consume each month. If the actual usage is less than the allowance, the customer is still required to pay the monthly minimum fee. If the actual usage is more than the allowance, then the customer may have to pay overage fees.
+
+Monthly minimum contracts are best for customers who have relatively consistent usage each month.  These types of contracts are not appropriate for customers whose consumption might vary at different times of year or be correlated with different phases of a project lifecycle.  Success with the monthly minimum model requires the customer to develop a reasonably accurate forecast of future consumption over the year long contract lifecycle.  It is in the vendor’s best interest that the forecast is accurate.  A customer that is consistently paying for more usage than they are actually consuming will be unhappy and require some financial concession to retain and grow.
+
+Example of Monthly Minimum
+Suppose that a customer commits to a minimum of usage of 500 units per month for a 12-month contract period. In exchange the customer is awarded a 20% volume discount off the list price of $5 to per unit price of $4. Therefore the customer agrees to pay a minimum of $2,000 per month (500 units x $4 per unit) regardless of whether their usage is higher or lower than 500 units.
+
+monthly minimum usage-based pricing contract example
+Month 1: Consumption of 500 units x $4/unit  = $2,000, which is equal to the monthly minimum so the amount invoiced is $2,000.
+Month 2: Consumption of 400 units x $4/unit = $1,600, which is less than monthly minimum of $2,000 so the amount invoiced is $2,000.
+Month 3: Consumption of 600 units x $4/unit = $2,400, which is greater than monthly minimum so the amount invoiced is $2,400.
+The total price for the first 3 months is $2,000 (month 1) + $2,000 (month 2) + $2,400 (month 3) = $6,400.
+
+Real World Example of Monthly Minimum
+It is rare to find examples of monthly minimum pricing on a public website.  Many SaaS and cloud vendors will negotiate a unique price schedule with each account that is only documented in the customer’s order form.  Others may have a standardized price schedule for monthly commits, but do not publish the details online.  However, there are exceptions.
+
+Below is an example of a monthly commitment pricing table for a cloud-based language understanding service.  Customers can send text inputs to the cognitive service and it will interpret the end users command.  Pricing is based upon the number of language transactions per month.  The customer can pay a list price of $1.50 per 1,000 transactions or get a discounted rate by committing to a certain monthly volume as outlined in the table below.  Note, that transactions in excess of the contracted minimum are charged an overage fee.
+
+example of a monthly minimum with overage fees
+For additional details on the example monthly commitment pricing above visit the Azure Cognitive Services page.
+
+Contract Type 3
+Spend Commitment
+The customer agrees to purchase a minimum dollar amount of usage-based products over a period of time in exchange for a significant discount. The time period could be single quarter, half year, full year, or multi-year contract term.  The balance of spend is tracked cumulatively over the months.  At the end of the commit period if the customer’s spend is less than the commitment, a “true up” payment is owed to satisfy the remaining obligations.
+
+Spend Commits are similar in principle to the Monthly Minimum contract with the key difference being the time interval that the commit has to occur within.  In other words, a Monthly Minimum contract is really a Spend Commit with a monthly true up.  Unlike the Monthly Minimum, which guarantees an evenly distributed revenue pattern across the contract lifecycle (excluding overages), the consumption pattern with a spend commit could be lumpy and inconsistent.  The customer could make all 80% of purchases in the first 3 months of an annual commit and spread the remaining 20% of the last 9 months.
+
+Example of Spend Commitment
+For example, suppose a customer agreed to spend $120K on usage-based services over a 12-month period in exchange for a 30% discount from the list price.  The customer spends $10K per month to satisfy the obligation within the 12 month commit period as illustrated in the table and chart below.
+
+Spend Commitment usage-based pricing example
+Month 1: $10K is spent, bringing total cumulative spend to $10K and remaining obligations to $110K.
+Month 2: $10K is spent, bringing total cumulative spend to $20K and remaining obligations to $100K.
+Month 3: $10K is spent, bringing total cumulative spend to $30K and remaining obligations to $90K.
+The number of usage-based pricing contracts with spend commitments is far lower than the other types of structures (e.g. prepaid, monthly minimum, tiered subscriptions).  Spend commits are usually reserved for larger, strategic accounts and negotiated in a bespoke manner with each individual account.  As a result, there are few real world examples of spend commitment structures published on the websites of SaaS and cloud companies.
+
+Contract Type 4
+Tiered Subscription
+The customer pays a fixed fee per month for a bundle of features and a pre-defined amount of usage. Usage-defined subscriptions look a lot like the feature-defined subscription tiers common to most service offerings.  The key difference is that usage-defined subscription tiers are primarily defined by the allotment or range of usage included, which is often the top differentiating feature listed right below the price.
+
+tiered subscription usage based pricing
+Most usage-defined subscriptions are packaged into tiers – each with an allotment or predefined range of consumption included.  The most common is a four-tier model which is often referred to as the “free,” “good,” “better,” and “best” model. The lowest (free) tier may be a freemium offer that includes a minimum number of units per month (e.g. 100), which offers the customer enough consumption to experiment with the product, but not enough to derive significant commercial value.  The next (good) tier is typically an entry level, paid offering that appeals to price-sensitive buyers. The good tier might include a higher number of units per month (e.g. 1000) plus a bundle of bare minimum entitlements.  Each successive tier (better and best) will continue to add more units to consume and more features.
+
+Example of Tiered Subscription
+For example, assume that the vendor offers a four-tiered subscription model as illustrated above.  Suppose a customer has selected the “Business” plan which allows consumption of 10,000 to 20,000 units for a fixed fee of $300 per month.
+
+tiered subscription usage-based pricing example
+Month 1: Usage is 7,500 units. Even though it is below the range for the Business package the customer pays $300.
+Month 2: Usage is 11,000 units. The usage is within range for the Business package and the customer pays $300.
+Month 3: Usage is 16,000 units. The usage exceeds the range for the Business package and the customer pays $300 subscription fee plus overage fees of 1000 units x $0.02 per unit = $20 for a total of $320.
+Real World Example of Tiered Subscription
+Tiered subscriptions are one of the most popular contract structures for usage-based pricing.  Customers get a predictable, fixed monthly fee that they can budget around and vendors get a predictable, recurring revenue stream.  There are thousands of examples of usage-defined tiered subscription pricing published on SaaS and cloud provider websites.
+
+Below is an example of a five tier model.  At each successive pricing tier the monthly usage allowance increases along with other features and entitlements.  The value metric is the number of tasks per month.
+
+Example tiered subscription contract structure with tiers being differentiated by usage allowance per month
+For additional details about the example usage-defined tiered subscription shown above visit the Zapier pricing page.
+
+========================
+
+Packaging as a Strategy for Usage-Based Pricing
+Multi-Tiered Packages Drive Superior Economics for SaaS and Cloud
+
+When designed properly the packaging strategy for usage-based pricing can drive a compelling business model with superior economics. The most popular strategy for SaaS and cloud companies is to package their features into three tiers with progressively higher levels of value in each level. Think “good,” “better,” and “best.”  With each successive tier either the per unit price or total monthly price increases along with the level of value offered to the customer.
+
+three column pricing table for SaaS companies with usage-based pricing
+Most subscription pricing models, both in the consumer and business world, use a multi-tiered package strategy. As a result, both consumers and corporate buyers have become familiar with these models over the past decade. The familiarity is a strong incentive for technology firms with usage-based pricing models to adapt these strategies. One of the downsides of usage models is the complexity associated with the formulas. Pricing complexity can confuse buyers and result in lost deals. By adapting the popular multi-tiered packaging approach, the SaaS or cloud firm can de-risk the introduction of usage-based pricing and simplify the sales process.
+
+Familiarity is not the only benefit to packaging into multiple tiers. The reason these multi-tiered packaging strategies have become so popular among subscription companies is that they can drive superior results in the areas of new customer acquisition, ARR expansion, and net revenue retention.
+
+New Customer Acquisition
+Free Trials and Entry Level Paid Tiers
+The lowest tier is often a freemium model that accelerates new customer acquisition by offering a low-friction model for new users to experiment with the product. Not all SaaS and cloud providers offer a freemium version. Those that do not offer a freemium will instead offer a paid, entry level package at the lowest tier for new customers. The paid, entry-level package is typically offered for a low fee, with a monthly, pay-as-you-go model that reduces friction for new users wanting to try out the product. Both the free and entry level package typically will be limited to minimum viable product functionality. Ideally, the feature set should be just enough that the customer can understand the value of the product, but insufficient to satisfy their long term needs. Wanting more the customer will be motivated to upgrade to a higher tier at a higher price so they can derive more value from the product.
+
+Upsells and Expansion Revenue
+Higher ARR and Net Revenue Retention
+A well-designed packaging strategy will incentivize customers to move progressively through the tiers over time and grow revenue.  Customer expansion will not only increase ARR it will also enhance other important metrics such as Net Revenue Retention.  To ensure that the packaging strategy is driving the right customer behaviors, SaaS and cloud providers should   bundle the most compelling features into the higher tiers.  Additionally, technology firms may want to limit access to the higher tiers to those customers willing to sign an annual or multi-year contract.  The customer will typically receive a discount in exchange for signing the contract, but most SaaS or cloud providers are happy to offer a lower price point in exchange for a committed level of revenue over the life of the agreement.
+
+Three Ways of Packaging
+By Features, Usage, or Technology Configuration
+There are three common types of multi-tiered packages that SaaS and cloud companies typically adopt for usage-based pricing:
+
+Feature-defined – Packaging tiers are differentiated by the functionality offered.
+Usage-defined – Packaging tiers are differentiated by the amount of usage allowed.
+Technology-defined – Packaging tiers are differentiated by the performance, capacity, or service level provided.
+Type 1
+Feature-Defined Packages
+Pre-configured bundles of entitlements
+
+Product features and entitlements are grouped into three different packages with each configuration having an increasing level of functionality. Think “good, better, best.” In practice, the packages are given names like “Basic, Pro, and Enterprise” or “Starter, Growth, and Enterprise.”
+
+Three column usage-based pricing table with $0.25 per unit for Pro tier, $0.50 per unit for Business tier, $0.75 per unit for Enterprise tier
+Per Unit Pricing vs Monthly Charges
+Note, that each package not only increases the level of functionality the customer can access, but it also increases the per unit price that is paid.  The amount that the customer will pay each month will vary based upon two variables:
+
+The feature tier they choose which impacts their price per unit
+The actual quantity of consumption of the product
+Customers on the highest tier do not necessarily pay the highest amount each month.  It is the combination of price x quantity that determines the monthly charge.  Consider three scenarios using the example from above:
+
+Scenario 1: The customer chooses the Developer package with a $0.25 price per transaction.  During the first month the customer uses 1,000 transactions and pays $250.
+Scenario 2: The customer chooses the Business package with a $0.50 price per transaction.  During the first month the customer uses 500 transactions and pays $250.
+Scenario 3: The customer chooses the Enterprise package with a $0.75 price per transaction.  During the first month, the customer uses 100 transactions and pays $75.
+The customer in scenario 1 is paying the lowest per unit rate, but ends up paying the same monthly fee as the customer in scenario 2 who has a higher per unit rate, but lower consumption.  The customer in scenario 3 has the highest per unit rate, but the lowest consumption volume and ends up paying a considerably lower charge than the other 2.
+
+Real World Example of Feature-Defined Packaging
+Below is an example of a three tiered, feature-defined packaging strategy with usage-based pricing.  The customer can choose between a free, pro, and enterprise tier, each with progressively higher prices and an expanding list of features.  The pricing is based on a single value metric – the count of hosts being monitored on cloud infrastructure.
+
+example of a feature defined, 3-tiered packaging strategy with a free, pro, and enterprise tier each at higher pricing and with more functionality
+For additional details on the specific example of a feature-defined, multi-tiered packaging shown above visit the DataDog website.
+
+Tier 1 – Free Trial or Freemium
+Companies with a product-led growth model will typically offer a free tier of functionality designed to lower friction for new prospects and accelerate new customer acquisition. 
+
+three column pricing table with $0 free tier, $0.50 per unit business tier, $0.75 per unit enterprise tier
+If there is no free tier, the SaaS or cloud provider will typically offer a baseline package with a minimum viable set of product functionality at an attractive price.  Similar to the free tier, the goal with the baseline package is to offer a low friction entry point for the user to become a paying customer.  In both models, the hope is that the customer will fall in love with the product experience and expand adoption quickly.
+
+Tier 3 – Enterprise Custom Pricing
+Almost all SaaS and cloud providers will offer an enterprise tier.  The name can be misleading as a small business with high usage might select the enterprise tier even though their corporate revenue is relatively low.
+
+feature-defined multi-tiered packaging for usage-based pricing with $0 free tier, $0.50 per unit business tier, custom enterprise tier pricing
+Typically, the price for the enterprise tier is not presented to the customer on the pricing page of the website.  Instead, customers interested in the Enterprise tier are instructed to contact the sales organization to obtain a customized quote based upon their specific needs.  As a result, the feature-defined configurations typically look more like the following:
+
+Why Three Tiers?
+Not all SaaS and cloud providers offer three packages. Some offer two, four, or even five. However, increasing the number of options creates a paradox of choice that can backfire and confuse customers. As a result, three configurations (e.g. “Free, Standard, and Enterprise”) is more popular than four (“Free, Developer, Standard, and Enterprise).”
+
+Type 2
+Usage-Defined Packages
+Pre-defined ranges of monthly consumption
+
+Multiple packages are defined, each with an increasingly level of usage allowed during a month. With each progressive tier, the total price the customer pays per month increases in accordance with the additional consumption levels allowed. In some cases, the packages may offer additional features and other entitlements beyond usage. However, the different usage levels are the key differentiating element between the tiers.
+
+four column usage-based pricing table with $100 for up to 1000 units, $200 for 100-5000 units
+Usage-defined configurations are similar to feature-defined configurations.  In both strategies, the features and entitlements are bundled into three or more packages that makes it easy for customers to compare the value offered fore each different price.  However, there are two important differences between the usage-defined and feature-defined packages:
+
+1) Usage Allowances Differentiate Tiers
+
+The key difference between the package options is not the functionality as is the case with feature-defined packages. Instead the packages each offer different consumption allowances.  The base package may offer 5,000 units, the second package offers 10,000 units, the third package offers 20,000 units and so on.  
+
+2) Predictable, Fixed, Monthly Fee
+
+With the usage-defined configuration each package is offered for a predictable, fixed fee per month.  For example, the customer gets a usage allowance of 5,000 units for $100 per month.  With feature-defined configurations, the price per unit is fixed, but the actual amount that the customer will pay varies month-to-month based upon consumption.  For example, the unit price might be $0.50 and the customer could pay $250 for 500 units or they could pay $500 for 1,000 units.
+
+It is more common to see 4 or 5 different tiers with usage-defined configurations with the goal of offering the customer more bracketed ranges of usage to choose from.  
+
+Real World Example of Usage-Defined Packaging
+Below is an example of a usage-defined, three-tiered packaging strategy for a marketing automation application.  The primary difference between the tiers is the allowance for contact records, but there are also additional product features and entitlements bundled into each level.
+
+example of usage-defined, three tiered packaging where the tiered are defined by number of contacts in marketing database
+To learn more about the specific example of a usage-defined, multi-tiered packaging strategy visit the Hubspot Marketing Hub page.
+
+Type 3
+Technology-Defined Packages
+Pre-configured bundles of CPU, memory, storage 
+
+A third type of strategy is to package configurations based upon the technology specifications such as capacity, performance, service level, or a combination of all three.  Technology-defined configurations are far less common than feature or usage-defined packages, but are worth noting.
+
+five column usage-based pricing table with x-small, small, medium, large, x-large configurations of cloud services
+In the cloud infrastructure-as-a-service sector providers offer various pre-configured bundles of CPUs, RAM, and storage to support different use cases from machine learning to database processing. The bundles often are given specific names to enable customers to quickly reference the configuration being used.  Some providers follow a “t-shirt size” model to name configurations – S, M, L, XL, XXL, etc.  Others will give the configurations a numbering scheme such as A100, A200, A300, A400, etc. that reflects the increased performance of each package.
+
+In some cases the cloud provider will offer dozens of different configurations and simply present them in a list (not as packages).  In other cases, the options are limited to 3-5 configurations and are bundled with a set of features and entitlements as technology-defined packages.
+
+=====================================
+
+The Presentation of Usage-Based Pricing
+Simplifying Pricing and Discount Models
+
+The power of usage-based pricing comes from the creativity and flexibility it offers.  By making creative use of different value metrics, discounting models, and contract structures, SaaS and cloud companies can generate an almost infinite number of pricing permutations. 
+
+However, the power and flexibility offered comes at the expense of complexity.  Usage-based pricing can be very confusing to customers.  A pricing model that is challenging to understand will delay sales cycles and put deals at risk.  That is why the most successful SaaS and cloud providers invest time and energy experimenting with different ways of presentation formats for their offerings until they find the most customer-friendly approach.
+
+Five Common Presentation Formats
+There is no limit to the number of different presentation formats for pricing.   However, the SaaS and cloud industry has converged on five common approaches for usage-based pricing:
+
+Grid
+Table
+List
+Columns
+Sliding Scale
+Example of how SaaS cloud pricing is presented with three columns for starter, growth, enterprise package
+These presentation formats can be used to display pricing or discounting models.
+
+Also, note that the core five presentation formats can also be combined to support more complex pricing arrangements.  We refer to these combinations as hybrid presentation formats.
+
+Format 1
+Grid Presentation
+Best for small number of products with single configuration
+
+The grid presentation format is popular for companies that have lots of different offerings that need to be displayed concisely on a single page.  Each section of the grid features a single offering with limited details such as the name of the product, a short description, the price per unit and the associated value metric.  There is usually a hyperlink that offers customers an option to learn more about the features and capabilities of the product.
+
+grid presentation format example for usage-based pricing
+The grid format works best when you have:
+
+Fewer than 10 products that can be displayed on a single screen
+Each product is offered in a single configuration/package
+Minimal detail about the product description needs to be displayed
+Pricing, for each product, is based upon a single value metric
+Real World Example
+Below is a grid presentation format for various data management services such as machine learning and a data warehouse.  Within the grid there are seven different products listed.  For each product the price per unit is defined along with a short description and a link to more information.
+
+example of grid presentation format for usage-based pricing with 7 different products each listing price and a short description
+For additional details on the example pricing model shown above visit the Cloudera website.
+
+Format 2
+Table Presentation
+Best for multiple products with multiple price points
+
+The tabular format offers great flexibility to present price schedules that have multiple dimensions.  In the table format, the individual products are listed on the left of the horizontal rows.  The column headings represent the different dimensions for pricing.
+
+Table presentation format for usage-based pricing
+Multiple Value Metrics
+Tables can be used for pricing based upon a single value metric resulting in a simple price x quantity (value metric) equation.  Alternatively, the tables can be more complex with pricing being a multi-part equation based upon multiple, different value metrics.
+
+For example, below is an example of a table presentation format that shows how pricing for a list of products varies based upon two different value metrics 1) the hours that the service was used and 2) the number of transactions processed.  The monthly charges will be determined by multiplying price x quantity for each column and summing up the total.
+
+example of table presentation format for usage-based pricing with multiple value metrics
+For example, suppose the customer used 
+
+Product A 
+
+10 hours at a price of $10 per hour 
+1000 transactions at a price of $0.10 per transaction.  
+
+The pricing would be calculated with two equations:
+
+10 hrs x $10/hr = $100
+1,000 transactions x $0.10 = $100
+
+Total = $100 + $100
+Total = $200
+
+Real World Example
+Below is an example of a table presentation format with two different value metrics for pricing of cloud integration.  The first value metric is the number of tasks per hour.  The second is the data transfer measured in GB.
+
+example of table presentation format with multiple value metrics 1) the tasks per hour and 2) the data transfer in GB
+For additional details about the example table presentation format shown above visit the Confluent website.
+
+Multiple Use Cases
+Tables can also be used to present pricing with a single value metric that varies based upon the use case. In this example, assume we have an automated SMS messaging service that is priced per message. However, the price per message varies based upon whether the use case is
+
+Send with text only
+Receive with text only
+Send text with picture
+Receive text with picture
+example of table presentation format for usage-based pricing with single metric & multiple use cases
+For example, suppose that a customer sent 25,000 messages from each category. The total monthly charges might be:
+
+25,000 text only received x $0.01 per text = $250
+25,000 text only sent x $0.02 per text = $500
+25,000 text with image received x $0.05 per text = $1,250
+25,000 text with image sent x $0.10 per text = $2,500
+
+Total = $250 + $500 + $1,250 + $2,500
+Total = $4,500
+
+Multiple Locations
+Below is another example of a table presentation of a list of products which are each priced based upon a single value metric.  In this case, the price varies based upon which geographic region the usage is consumed in, perhaps due to differing cost structures by location.
+
+example of table presentation format for usage-based pricing that varies based upon location
+Multiple Volume Tiers
+Tables are also an effective approach for presenting a tiered discounting model.  Below is a table that illustrates how the per unit pricing varies as the customer’s volume of consumption increases.  In this example, the product is high volume data transfer in and out of a cloud data center.  There is a single value metric (GB of data transferred), but the per unit charge decreases with volume.
+
+example of a tiered discount model for usage-based pricing with columns for different levels of data transfer and corresponding pricing
+For example, suppose that a customer transferred 250GB in a single month to/from the North America data center. The total monthly charges might be:
+
+First 100 GB @ $10/GB = $1,000
+Next 100 GB @ $9/GB = $900
+Next 50 GB @$8/GB = $400
+
+Total = $1,000 + $900 + $400
+Total = $2,300
+
+Real World Example – Hybrid Location and Volume Tiers
+Below is a real world example of a tiered discounting model for data transfer services that also varies by location.  Each of the columns represents a pricing tier.  Each of the rows represents a different location.
+
+example table presentation format for tiered discounting with usage-based pricing
+For additional details on the hybrid volume and location presentation format shown above visit the Google Cloud Platform Content Distribution Network page.
+
+Format 3
+List Presentation
+Best for high number of products with single configuration and pricing
+
+The easiest approach to price presentation is the list format.  The products simply are listed in a row and column format.  At a minimum the list will need two columns for 1) product name and 2) unit price.  The two column format is common when there is a list of add-ons that can be purchased in combination with a base product.  
+
+example of usage-based pricing with a long list of products and corresponding unit prices
+Lists are not limited to two column formats.  Lists with five or more columns are common with cloud infrastructure providers.  Compute, database, storage, and machine learning offerings are commonly presented in list format with the CPU, memory, storage, and cloud platforms each as columns in addition to the price. 
+
+example of a table presenting cloud computing pricing with column headers for vCPU, memory, storage, and hourly price
+The list presentation format and table presentation format (described above) can look very similar, especially when the list has multiple columns of detail for each row.  We distinguish the two by the number of columns that are presenting pricing.  A list has only one column with pricing and a table has two or more columns with pricing variables.
+
+The list format works best when you have:
+
+Either a short or long list of products to present
+Product names are self-explanatory not requiring a detailed word description
+Pricing is based upon a single metric
+Real World Example
+Below is an example of the list presentation format for a cloud-based rendering service that generates complex 3D images and interactive experiences for virtual reality devices. There are three products listed along with the usage-based price and a brief description.
+
+Example of list presentation format for a 3D cloud rendering service with three products, the price, and service description
+For additional details on the example list presentation format pricing shown above visit the Azure Remote Rendering product page.
+
+Format 4
+Column Presentation
+Best for pre-configured, multi-tiered packages
+
+The column presentation format is one of the most popular models for SaaS and cloud products. Column presentation is typically implemented with a packaging strategy in which the offerings are configured into three (or more) different bundles of features and entitlements with a fixed price point. Column format is appealing because customers can quickly compare a handful of pre-configured packages at different price points to decide which one is best for them.
+
+At the top of each column the package name is displayed along with a price and the associated value metric. Below the column headings, a detailed list of features and entitlements is displayed that allow customers to compare the functionality offered within each tier. Below is an example of a multi-tiered columnar presentation format for three configurations that are packaged based upon the feature set (good, better, best).
+
+column presentation format for usage-based pricing
+In many cases, a summary of the features is presented directly below the column headers within the visible screen area.  The summary view that makes it easy for the customer to quickly differentiate between the packages without having to scroll down through a long list of features.  
+
+For example, suppose there was a three tiered “good, better, best” package for employee background screening that was priced based upon the number of people verified.  
+
+column presentation format for usage-based pricing
+The good package summary description might be 
+
+Check for match with persons on:
+
+Criminal background
+Government watchlist
+The better package summary description might be
+
+Everything in good plus
+
+Verification of employees:
+
+Current employer
+Education credentials
+The best package summary might be
+
+Everything in better plus
+
+Verification of employees:
+
+Previous employer
+Professional licenses
+Financial history
+Below is another example of a multi-tiered columnar presentation format for four configurations that are packaged based upon the usage-allowance.  Note that there are feature differences between the packages as well, but the usage allowance is the primary metric used to distinguish the packages.
+
+four column usage-based pricing table with $100 for up to 1000 units, $200 for 100-5000 units
+The column tier approach works when the 
+
+Single product to be represented on the pricing page
+Product is bundled into 2-5 different configurations,
+Comparisons of the features and entitlements offered with each package need to be displayed
+Pricing is based upon a single value metric
+Format 5
+Sliding Scale
+Best for volume discount pricing
+
+The sliding scale is typically used to illustrate how volume or tiered discounting models work.  The customer can adjust the amount of product they expect to consume and immediately see what the price will be at that usage level.  The sliding scale improves the customer experience by providing transparency on pricing.  It also frees the customer from having to master complex rating calculations when they are in the early stages of the buying process.
+
+sliding scale for volume discounting on usage-based pricing example
+The sliding scale works best when you have:
+
+Single product to be represented on the pricing page
+The product is offered in a single configuration
+Pricing can be based upon one or more value metrics
+Volume or tiered discounting model
+Standardized across all customers (versus being negotiated for each contract)
+Automatically applied (versus being applied only for customers on long-term contracts)
+Real World Example
+Below is an example of a sliding scale presentation format for a cloud-based map service.  Customers can slide the bars left and right to see the pricing for various combinations of mapping requests sent via API.
+
+example sliding scale presentation format for cloud based map service with five different SDKs and API options
+For additional details about the example presented above consult the Google Maps pricing page.
+
+===================================
+Calculating Billable Usage Quantity
+With usage-based pricing models the “billable usage quantity” may or may not be the same as the actual amount of consumption that occurs.  The customer may have used 500 hours of a service, but is actually only invoiced for a billable usage quantity of 350 hours.
+
+SaaS and cloud providers have a variety of creative methodologies such as used to calculate billable usage quantity.  Some methodologies are customer-friendly such as percentile billing, designed to ensure that the account is not being over-charged for spikes in usage or anomalies that are not representative of their true consumption.  In other cases such as high water mark billing, the calculations are designed to maximize the amount of revenue that the SaaS or cloud provider generates.
+
+Quantity times price equals charges for usage-based pricing
+The process to calculate billable usage quantity is relatively straightforward in some cases. In the simplest model billing records are sorted by each individual customer then counted up to arrive at the number of units (i.e. the summary count model). In other cases, the process can be significantly more complex such as with percentile billing or high water mark billing.  Several mathematical operations may need to be performed to arrive at the right quantity.
+
+six ways to calculate billable usage quantities for usage based pricing
+Pre-Processing
+Before the quantity calculation can be performed
+Typically, a certain level of pre-processing is required on the usage data before the billable usage quantity can be calculated.  Three common examples of pre-processing include:
+
+Sort by Customer – The raw metered consumption data will need to be sorted by customer.  Large enterprises may have multiple business units, which need to be pooled together for billing purposes.
+Filter Non-Billable – Some SaaS and cloud providers offer a certain quantity of units for free each month.  Others do not bill for certain types of usage transactions.  These free/included units and non-billable units will need to be filtered out before the rating process occurs.
+Convert to Billable UoM – Pricing may be per thousand or per million units of consumption.  Billing may be based upon 2 decimal places, but the raw metered data may have 4 decimal places.  Simple division or rounding will be required to convert raw metered data into the correct billable Unit of Measure (UoM).
+Diagram of the six common pre-processing functions for calculating billable usage quantity
+Sorting and Grouping
+Organizing usage data by customer and product
+The raw consumption data that is posted through the SaaS or cloud product’s metering function is often a long list of individual event records that occurred during the billing period. It is not uncommon for the detailed usage records to number millions if not billions of rows per month.  The raw data will need to be sorted by customer account and product before any quantity calculations can be performed.
+
+The raw data will need to be sorted by customer account and product before any quantity calculations can be performed.
+
+Usage Pooling
+Adding up consumption across business units
+Large enterprises with multiple business units often require specialized reporting and billing arrangements that complicate the quantity calculations.  Typically, each independent business unit will want to have their own organization’s consumption tracked and reported on separately. However, the separate business units also want to benefit from the aggregate purchasing power of the whole company to maximize discounts. 
+
+usage pooling example across multiple products on same account
+As a result, the combined usage of all the business units will be pooled together to perform the billing calculations, but then split apart for presentation on the invoice and reporting.
+
+Block Aggregation
+Dividing usage quantity into billable units
+Many cloud providers price units in blocks of hundreds, millions, or thousands.  In these instances total amount of usage will need to be divided by the block quantity to arrive at the billing metric.
+
+block aggregation example for usage based pricing
+For example, suppose an observability platform might be priced at $0.01 per 10K test sessions.   In the latest month, Customer A has 800,000,000 test sessions.  The billable quantity for Customer A would be 800,000,000 divided by 10,000 or 80,000 units.
+
+Real World Example
+Below is an example of a cloud observability and management platform that bills based upon blocks rather than units of one.  The block size varies for different services and units of measure – events, monitored runs, and monitored resources.
+
+example of block aggregation for usage-based pricing including a cloud observability platform that bills based upon blocks of 10, 1000, and 100,000 units
+For additional information on the specific example of block aggregation pricing shown above visit the Oracle Cloud pricing page.
+
+Rounding
+Rounding decimal places up or down
+Often usage data is captured with more precision (decimal places) than is needed for billing purposes.  In these cases the quantity will need to be rounded up (or down) to arrive at a billable unit.
+
+rounding example for usage-based pricing
+For example, suppose a cloud computing service charges based upon the number of hours the customer uses the service during a billing period.  Customer A used the service 3 times during the past month for a total of 150 minutes.  The usage needs to be converted to hours to calculate the charges.  150 minutes = 2.5 hours, which is 3 hours after rounding up.
+
+Real World Example
+Below is an example of a cloud-based media redaction service that blurs faces in videos and images that might be used in news or public safety scenarios.  The pricing is based upon the length of the video file playback.  As you can see in the fine print, the file length is rounded up to the nearest minute for billing purposes.  Note, that there is a minimum billable unit of one minute.
+
+example of rounding policy applied to consumption of a cloud based media redactor service in which usage is rounded up to the nearest minute
+For additional details about the specific example of rounding for billable unit calculation see the Azure Media Redactor page.
+
+Non-Billable Units
+Subtracting certain usage types from total consumption
+Many SaaS and cloud providers differentiate their offering by categorizing certain types of usage as non-billable.  In these cases, the usage-based billing systems will need to be able to identify non-billable usage and excluded it from quantity calculations.
+
+non billable units illustration for usage based pricing
+Consider an example of an email service provider whose pricing is based upon  the number of messages sent to customers.  Suppose that the email service also has the option to carbon copy (cc) employees on the messages to customers.  The email service provider might decide that the messages sent to employees are non-billable units and only charge for customer-facing transactions.
+
+Real World Example
+Below is an example of pricing for a virtual private cloud.  The unit of measure is GB of data transferred, but the price can vary by the destination location.  Note that only data transferred out of the cloud (egress) is billable and that data transferred in (ingress) is non-billable.
+
+example of non-billable units showing how network egress is charged for, but ingress is offered at no cost
+For additional details on the specific example of non-billable units shown above consult the Google Virtual Private Cloud pricing page.
+
+Free or Included Units
+Subtracting certain usage types from total consumption
+Some SaaS and cloud providers offer entitlements to customers to incentivize usage of the product.  A common entitlement is to include a certain quantity of free or included units each month at no additional charge.  These free/included units need to be deducted from the actual consumption data before the rating process occurs. 
+
+Chart illustrating free/included units vs billable units for usage based pricing
+For example, a computer vision application might include 100 image recognition scans per month at no charge for customers on annual contracts.  If the customer only performs 150 scans this month they will only be charged for 50 billable units (and not the first 100 free units).
+
+Real World Example
+Below is an example of a freemium pricing table for an infrastructure-as-a-service cloud platform.  The table shows the quantity of usage that can be consumed each month at no charge on the platform.  The free units vary by product and each have different value metrics.
+
+example of free/included units offered to customers for a list of different products and the quantity that can be consumed at no charge for each billing period
+To see the complete list of free units included in the specific example above visit the Google Cloud free cloud features page.
+
+The Quantity Calculation
+Five Common Approaches 
+With pre-processing completed, the quantity calculations can then be performed.  The process typically involves performing some simple mathematical operations to arrive at the billable usage quantity.
+
+High Water Mark – The peak usage point is identified a series of sample meter readings taken throughout the period.
+Percentile billing – The top 1, 5, or 10% or meter readings are discarded as outliers and are not included in billing.
+Summary count – The units consumed during the period are simply added up to arrive at the quantity.
+Average or Mean – From a series of sample meter readings taken at regular intervals during the billing period.
+Quantity Cap – A maximum billable amount (cap) is set that effective puts a ceiling on the monthly fee a customer can pay.
+Quantity Floor – A monthly minimum is established that the customer must pay even if their usage is low (or zero).
+Illustration showing different models for calculating usage quantity
+Approach 1
+High Water Mark Billing
+Ranking meter readings from high to low
+The customer is charged based upon the maximum level of usage attained during the billing cycle.  This billing model is often referred to as the “high water mark” approach.  The SaaS or cloud application will need to collect a set of samples – metering the level of consumption at regular intervals such as once per hour.  At the end of the billing period the usage readings would be sorted max to min to identify the peak used as the billing quantity.
+
+high water mark billing model for usage based pricing
+For example, suppose a cybersecurity provider charges based upon the number of endpoints (PCs, mobile phones, network elements) that it is monitoring and managing.  Once per day at Noon GMT, the cybersecurity application meters the number of devices connected for each account.  At the end of the month, the billing system reviews the samples for each customer and identifies the peak meter reading for each account (e.g. 94 endpoints on day 14).  The peak usage, or high water mark, is the billable usage quantity for the month.
+
+Real World Example
+
+Below is an example of a variant of a high water mark plan.  In the explanation of the billing methodology the provider explains how the quantity calculation is performed each month.  In this example, the eighth highest measurement (rather than the highest measurement) is used.
+
+example of a variant of a high water mark plan for an application performance measurement service that bills based upon the eighth highest measurement each billing period
+For additional details on the example high water mark plan shown above visit the DataDog pricing page.
+
+Approach 2
+Percentile Billing
+Discarding the top n percent of meter readings
+The customer is charged based upon the 90th, 95th, or 99th percentile of usage during the period.  In the percentile model, usage is sampled at a regular frequency throughout the billing cycle.  At the end of the period, the samples are all aggregated and the top n% of meter readings are discarded.  In the 90th percentile the top 10% would be eliminated.  In the 95th percentile, the top 5% would be eliminated.  In the 99th percentile, the top 1%.  Percentile billing is popular in networking services where irregular traffic spikes can occur that are not indicative of the usage profile of the customer.
+
+percentile billing model for usage based pricing
+For example, suppose a cloud computing platform bills for network traffic in and out of its data center using a 95th percentile billing model.  Samples of data transfer rates are performed 1000 times during the month.  During the billing run, the samples for each customer are reviewed and sorted from highest to lowest.  The top 5% (50) are discarded as outliers and the billable usage quantity is set to be the 950th highest data point (95th percentile).
+
+Approach 3
+Summary Count
+Adding up all each unit consumed
+The simplest and most common approach to calculating the billable usage quantity involves basic addition. First the raw consumption data is sorted by customer and product. Next the total amount of usage for each customer at a product level is counted.
+
+summary count model for usage based pricing
+For example, suppose an address verification company prices based upon the number of API transactions that occur per month. In the latest month there are 10M individual API transactions logged across the customer base. The summary count process identifies that 100K API calls were from customer A, 90K from customer B, and 80K from customer C, etc.
+
+Approach 4
+Average or Mean 
+Finding midpoints amongst usage data
+Some SaaS and cloud providers will bill their customers based upon the average (or mean) usage level in the period.  Usage samples are taken periodically throughout the billing period and captured in a database or log file.  At the end of the month, the samples would be averaged to arrived at the quantity to be used in the billing process.
+
+average or mean calculation for usage based pricing
+For example, a point-of-sale application provider might bill restaurant chains based upon the average number of store terminals active during the billing period.  The metering function might sample the number of active terminals twice per day at 8am and 8pm local time.  At the end of the month, the samples for each customer would be averaged to arrive at the billable usage quantity for each account.
+
+Approach 5
+Quantity Caps
+Setting maximum usage thresholds
+Some SaaS and cloud providers might define a billing policy that sets a maximum quantity for which any customer can be billed for during a single period.  If the customer’s actual usage surpasses the policy threshold, the quantity used to compute the charges will be set to the cap amount.
+
+quantity cap for usage-based pricing
+For example, suppose a compute-as-a-service charges $2.00 per hour to rent a preconfigured combination of vCPU, memory, and storage.  A usage cap of 600 hours is set for the product at which the price is effectively maxed out at $1200, which is the per month price for the same configuration.
+
+Approach 6
+Quantity Floor
+Setting minimum usage levels
+The SaaS or cloud provider might define a floor or minimum for the billable usage quantity.  If the customer’s actual usage is below the floor, the quantity used to compute the charges will be set to the floor amount.
+
+For example, suppose a fraud detection company charges $1.00 for each e-commerce transaction it inspects.  The company has a billing policy that sets a usage floor of 10 transactions per month.  If a customer performs  11 or more fraud verification per month the cost will be the actual number of transactions multiplied by the price per unit ($1/transaction).  If a customer performs 10 or fewer transactions, they will be billed based upon the minimum quantity of 10.
+
+Chart showing an example of minimum billable quantity calculations for usage based pricing
+
+====================================
+
+Usage-Based Billing
+Converting Metered Data into Line Item Charges
+
+The billing process is often the most complex part of a usage-based pricing model. To calculate the charges that will need to appear on the invoice, the billing system must multiple price times quantity for each product. However, determining both the appropriate price and the billable usage quantity often require multiple steps and mathematical operations. Pricing may be based upon volume or tiered discount schedules with bracketed usage ranges.
+
+For quantity, the actual metered consumption may need to be adjusted to remove non-billable or free units. In other cases, the quantity is adjusted using models such as the high-water mark or 90th percentile.
+
+Additional complexity arises for customers on long-term contracts. For customers with prepaid usage, a multi-step process is required to determine current balance of credits and apply monthly drawdowns. If the prepaid balance is depleted the billing system may need to orchestrate auto-replenishment workflows. Contracts with monthly minimums also require multiple steps to process. The currently monthly spend across usage-based and non-usage based products will need to be calculated and compared to the minimum. Overage fees with a different pricing schedule may apply.
+
+The Four Steps in Usage-Based Billing
+First, all the metered data collected by the product will need to be aggregated and sorted by customer. Second, the data will need to be cleaned up to eliminate duplicate rows, incomplete records, and failed transactions. Third, it will be fed into a rating engine that will compute the actual charges that each customer owes for consumption of various products. Fourth and finally, the actual invoice will be generated along with the usage charges, other line items, and sales taxes.
+
+Metering Consumption– Tracks the amount of the usage each customer consumes. For pricing driven by the number of transactions, the meter may be a counter that records each event that occurs. For pricing driven by the amount of time used, the meter might simply record the start and stop times.
+Data Mediation– Converting the raw, metered usage data into a format that is easily digestible by the billing system. Examples include eliminating duplicate records, filtering out non-billable transactions, or enriching the records with additional data fields needed to present on the customer invoice.
+usage based billing process four steps
+Rating Engine– The rating engine is the heart of the usage-based billing system. The rating engine will calculate the quantity of usage for each customer then compute the charges based upon the appropriate price. Rating for contracts with prepaid usage, monthly minimums, or spend commitments can be quite complex.
+Invoice Presentment and Payment– Usage charges from the rating engine will be combined with other billing line items and sales tax for presentation on the invoice.  The customer may receive the invoice as a PDF attachment email, via a link to a billing portal, or through a machine-readable file such as EDI or XML.
+Step 1
+Metering Consumption
+Tracking customer’s usage with product-based telemetry
+Critical to the success of any usage-based pricing model is the ability to precisely meter the amount of product each customer is consuming during the billing period. Each time a customer initiates usage, the metering function will need to capture the product used, transaction type, date/time, and quantity consumed.
+
+Metered consumption can be stored in log files or a data warehouse as it is collected, then processed at the end of the billing period.  In some cases, SaaS and cloud providers may process meter readings in real-time so that customers always have an accurate, up-to-date view of consumption.
+
+Depending upon the unit of measure different types of measurements may need to be taken at different frequencies. Four of the most common types of metering are:
+
+
+Time-based metrics – For example, short-term rental of cloud compute services by the hour, minute or second.  The metering process may be simple.  Record the start and end times for each use.  Then use basic subtraction to calculate the number of minutes the service was used.
+Transaction-based metrics – For example, pricing based upon the number of API calls per month.  The metering might be a counter that logs each time a discrete transaction occurs along with additional data such as whether it was successful or failed.
+Volume-based metrics – For example, GB of data transferred in/out of a network connection.  The metering might be continuous, tracking the on-going flow of traffic.  In some cases, the rate may vary depending upon traffic direction so it will need to record both ingress and egress.
+Count-based metrics – For example, the number of contacts in a marketing database.  The metering might be conducted by taking a sample measurement at regular intervals such as once per hour or once every five minutes.
+Step 2
+Data Mediation
+Converting raw usage data into the format needed for the billing system
+Data mediation is the process of extracting the raw metered data collected about consumption and transforming it into a format that is easily digestible by the billing system.  The types of operations performed include eliminating duplicate records, filtering out non-billable test transactions, and normalizing fields to a consistent format.
+
+The scope of activities that occur in the data mediation process varies for each different SaaS and cloud company. Some of the data mediation tasks might be performed upstream in the actual metering process or downstream in the rating engine.
+
+Examples of the types of data mediation operations performed include:
+
+Data collection – Extract the metered data from a centralized source such as a data warehouse or a decentralized sources such as the log files from various product applications. Collection could occur in real-time or be batched in period intervals.
+Record verification – Analyze metered data to identify which records have the complete set of fields needed for billing. Due to technical errors during the collection process, some records might not have the necessary data to associate it with a specific customer or product and may need to be discarded.
+Data filtering – Some types of usage may not be relevant for billing. For example, there might be test transactions generated by the development team or automated monitoring tools that should not be fed to the billing system.These records need to be identified and excluded.
+De-duplication – Due to technical errors during the data collection process, some transactions may be incorrectly recorded more than once. To avoid over-billing these duplicate records should be reconciled prior to being fed into the rating engine.
+
+Usage binding – Raw metered consumption might be tracked against user names, IP addresses, or server instances.  To correctly charge the appropriate accounts, the raw metered data will need to be “bound” to the specific customers and products.  In other words, the user, IP, or server may need to be mapped to account and product identifiers.
+Data normalization – Raw usage data might be captured in a different format than the billing system expects to receive the data in.  For example, consumption records might have be timestamped with three decimal points of precision for milliseconds, but the billing system does not track milliseconds.  The data may need to be truncated or normalized prior to upload to the billing system.
+Data enrichment – The billing system might require additional fields beyond those captured in the raw consumption data.  For example, billing might require the country that a particular transaction occurred in for taxation or regulatory purposes.  In such a case, the IP address of the host could be mapped to a country location and appended to the record.
+Step 3
+Rating Engine
+Calculating the charges based upon price and quantity
+The rating engine is the heart of the usage-based billing system. It performs all the calculations needed to identify the charges that need to be applied to each customer’s invoice. The rating engine needs to determine the appropriate price to use based upon the customer’s discount schedule and the billable usage quantity based upon the metered consumption data.
+
+Per unit price
+The per unit price that each customer pays can vary month-to-month based upon the quantity consumed, discount schedules, and their contract arrangement.
+
+In the simplest case, the customer is on a pay-as-you-go model and is charged the list (un-discounted) price. There may be automated discounts applied based upon the volume of usage, which involves checking a reference tables with ranges of consumption and specified discount levels. Overage fees may apply in scenarios where the customer usage exceeded certain thresholds. Rate multipliers may result in uplifts to charges that occur during peak time periods or with higher SLAs.
+
+usage based billing rating process
+Billable usage quantity
+The billable usage is not necessarily the same as the actual metered consumption reported by the product. The customer may have consumed 500 units during the month, but may only be billed for 450. SaaS and cloud provider have different methodologies for calculating the quantity of consumption in a billing period.
+
+The calculation might be as simple as sorting the events by customer and then counting up the totals. Or it might require a slightly more complex set of mathematical operations such as calculating the average, mean, max, min, or 95th percentile from the raw metered data. There also may be pre-processing required that involves rounding or division of the consumption into blocks.
+
+Usage rating for complex contracts
+For annual or long-term contracts with structures such as monthly minimum fees, prepaid usage with drawdowns, and spend commitments with true ups, the rating engine will need to perform additional steps to calculate the final charges.
+
+usage rating for complex contracts
+Monthly minimums
+For a monthly minimum contract, the rating engine will perform three steps:
+
+The engine will calculate the actual monthly spend based upon the customer’s consumption.
+The rating engine will then compare the actual spend to the monthly minimum to determine if it is higher or lower, which will determine what amount to invoice.
+If the actual spend is higher then overage charges will need to be calculated.  Overages may be priced at a different per unit rate.
+Prepaid usage
+For a prepaid usage contract, the rating engine will perform two primary steps:
+
+The current balance of prepaid credits will need to be determined by analyzing the usage over the prior periods as well as applying any new debits or credits.
+The current month’s billable usage quantity will need to be calculated and debited against the prepaid balance. If the customer has depleted all their credits then a new invoice will be generated to cover the deficit or replenish the balance.
+Spend commitments
+For spend commitments, the rating engine will perform three steps:
+
+Calculate the current month’s spend. 
+Determine the opening balance for the spend commitment.  In other words, it calculate how much has the customer spent so far and what is the remaining obligation.
+If the current month is the last one in the contract period and the total spend levels did not reach the commitment, a true up invoice will be generated.
+Step 4
+Bill Generation
+Electronic invoice presentment and payment
+
+Invoice presentation and payment for usage-based pricing follows a similar to approach to other types of pricing models.  The outputs of the rating engine will need to be combined with other line items for subscriptions fees, professional services billings, credits/refunds, and sales taxes onto a single invoice. 
+
+The invoice can be delivered as a PDF attachment to an email or transmitted in a machine-readable format such as EDI or XML. 
+
+Ideally, customers should be offered a choice of payment channels from auto-payment via credit to AP-initiated ACH, wire transfers, and checks.
+
+
+Invoices, Statements, and Usage Records
+Minimizing AR inquiries with detailed customer communications
+
+There are some unique considerations as usage-based pricing is significantly more complex than other commercial models and results in an abnormally high level of customer inquiries and disputes.  Customers with prepaid usage are likely to get confused when they receive unexpected bills resulting from an automated replenishment triggered by a low balance or expired credits.  Customers with monthly minimum contracts will get confused why they are being charged a relatively high fee in a month with low usage.  Conversely, they will also question why they are paying overage fees in times of high usage when they were expecting to only pay the contracted monthly minimum.
+
+To educate customers and reduce the volume of inquiries the accounts receivable department receives, SaaS and cloud providers will invest time to offer a more detailed set of communications about usage-based charges. Examples include:
+
+Detailed Invoices – Usage-based pricing is complex and the charges vary from month-to-month, which results in a higher volume of disputes and inquiries. To reduce the risk of late payments, many providers will include details such as formulas, calculations, and discount schedules on the invoice to help customers interpret the bill.
+Account Statements – For long term contracts customers will want to understand progress against forecasted usage goals.  Customers with prepaid credits should see the current balance as well as the history of monthly drawdowns.  Accounts with spend commits should see the remaining obligations and dollars of commitment already satisfied.
+Usage Detail Records – In addition to the invoice, many customers also want to get copies of the usage detail records captured during the metering process. These records include all the information captured about each transaction during the month including the product used, date/time of usage, and quantity consumed.
+Billing Documentation
+Statements and invoices should have links pointing customers to web-based resources that contain further details on the invoice process and billing policy. SaaS and cloud providers will need to prepare online documentation that explains in plain English how pricing and quantity are determined including details about the value metrics, discount schedules, and billable usage calculations. Billing policies should answer frequently asked questions on topics such as overage fees, rollovers, and expiration dates.
+

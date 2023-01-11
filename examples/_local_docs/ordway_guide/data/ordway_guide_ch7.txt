@@ -1,0 +1,110 @@
+
+Chapter 7: Usage-Based Billing
+Converting Metered Data into Line Item Charges
+
+The billing process is often the most complex part of a usage-based pricing model. To calculate the charges that will need to appear on the invoice, the billing system must multiple price times quantity for each product. However, determining both the appropriate price and the billable usage quantity often require multiple steps and mathematical operations. Pricing may be based upon volume or tiered discount schedules with bracketed usage ranges.
+
+For quantity, the actual metered consumption may need to be adjusted to remove non-billable or free units. In other cases, the quantity is adjusted using models such as the high-water mark or 90th percentile.
+
+Additional complexity arises for customers on long-term contracts. For customers with prepaid usage, a multi-step process is required to determine current balance of credits and apply monthly drawdowns. If the prepaid balance is depleted the billing system may need to orchestrate auto-replenishment workflows. Contracts with monthly minimums also require multiple steps to process. The currently monthly spend across usage-based and non-usage based products will need to be calculated and compared to the minimum. Overage fees with a different pricing schedule may apply.
+
+The Four Steps in Usage-Based Billing
+First, all the metered data collected by the product will need to be aggregated and sorted by customer. Second, the data will need to be cleaned up to eliminate duplicate rows, incomplete records, and failed transactions. Third, it will be fed into a rating engine that will compute the actual charges that each customer owes for consumption of various products. Fourth and finally, the actual invoice will be generated along with the usage charges, other line items, and sales taxes.
+
+Metering Consumption– Tracks the amount of the usage each customer consumes. For pricing driven by the number of transactions, the meter may be a counter that records each event that occurs. For pricing driven by the amount of time used, the meter might simply record the start and stop times.
+Data Mediation– Converting the raw, metered usage data into a format that is easily digestible by the billing system. Examples include eliminating duplicate records, filtering out non-billable transactions, or enriching the records with additional data fields needed to present on the customer invoice.
+usage based billing process four steps
+Rating Engine– The rating engine is the heart of the usage-based billing system. The rating engine will calculate the quantity of usage for each customer then compute the charges based upon the appropriate price. Rating for contracts with prepaid usage, monthly minimums, or spend commitments can be quite complex.
+Invoice Presentment and Payment– Usage charges from the rating engine will be combined with other billing line items and sales tax for presentation on the invoice.  The customer may receive the invoice as a PDF attachment email, via a link to a billing portal, or through a machine-readable file such as EDI or XML.
+Step 1
+Metering Consumption
+Tracking customer’s usage with product-based telemetry
+Critical to the success of any usage-based pricing model is the ability to precisely meter the amount of product each customer is consuming during the billing period. Each time a customer initiates usage, the metering function will need to capture the product used, transaction type, date/time, and quantity consumed.
+
+Metered consumption can be stored in log files or a data warehouse as it is collected, then processed at the end of the billing period.  In some cases, SaaS and cloud providers may process meter readings in real-time so that customers always have an accurate, up-to-date view of consumption.
+
+Depending upon the unit of measure different types of measurements may need to be taken at different frequencies. Four of the most common types of metering are:
+
+
+Time-based metrics – For example, short-term rental of cloud compute services by the hour, minute or second.  The metering process may be simple.  Record the start and end times for each use.  Then use basic subtraction to calculate the number of minutes the service was used.
+Transaction-based metrics – For example, pricing based upon the number of API calls per month.  The metering might be a counter that logs each time a discrete transaction occurs along with additional data such as whether it was successful or failed.
+Volume-based metrics – For example, GB of data transferred in/out of a network connection.  The metering might be continuous, tracking the on-going flow of traffic.  In some cases, the rate may vary depending upon traffic direction so it will need to record both ingress and egress.
+Count-based metrics – For example, the number of contacts in a marketing database.  The metering might be conducted by taking a sample measurement at regular intervals such as once per hour or once every five minutes.
+Step 2
+Data Mediation
+Converting raw usage data into the format needed for the billing system
+Data mediation is the process of extracting the raw metered data collected about consumption and transforming it into a format that is easily digestible by the billing system.  The types of operations performed include eliminating duplicate records, filtering out non-billable test transactions, and normalizing fields to a consistent format.
+
+The scope of activities that occur in the data mediation process varies for each different SaaS and cloud company. Some of the data mediation tasks might be performed upstream in the actual metering process or downstream in the rating engine.
+
+Examples of the types of data mediation operations performed include:
+
+Data collection – Extract the metered data from a centralized source such as a data warehouse or a decentralized sources such as the log files from various product applications. Collection could occur in real-time or be batched in period intervals.
+Record verification – Analyze metered data to identify which records have the complete set of fields needed for billing. Due to technical errors during the collection process, some records might not have the necessary data to associate it with a specific customer or product and may need to be discarded.
+Data filtering – Some types of usage may not be relevant for billing. For example, there might be test transactions generated by the development team or automated monitoring tools that should not be fed to the billing system.These records need to be identified and excluded.
+De-duplication – Due to technical errors during the data collection process, some transactions may be incorrectly recorded more than once. To avoid over-billing these duplicate records should be reconciled prior to being fed into the rating engine.
+
+Usage binding – Raw metered consumption might be tracked against user names, IP addresses, or server instances.  To correctly charge the appropriate accounts, the raw metered data will need to be “bound” to the specific customers and products.  In other words, the user, IP, or server may need to be mapped to account and product identifiers.
+Data normalization – Raw usage data might be captured in a different format than the billing system expects to receive the data in.  For example, consumption records might have be timestamped with three decimal points of precision for milliseconds, but the billing system does not track milliseconds.  The data may need to be truncated or normalized prior to upload to the billing system.
+Data enrichment – The billing system might require additional fields beyond those captured in the raw consumption data.  For example, billing might require the country that a particular transaction occurred in for taxation or regulatory purposes.  In such a case, the IP address of the host could be mapped to a country location and appended to the record.
+Step 3
+Rating Engine
+Calculating the charges based upon price and quantity
+The rating engine is the heart of the usage-based billing system. It performs all the calculations needed to identify the charges that need to be applied to each customer’s invoice. The rating engine needs to determine the appropriate price to use based upon the customer’s discount schedule and the billable usage quantity based upon the metered consumption data.
+
+Per unit price
+The per unit price that each customer pays can vary month-to-month based upon the quantity consumed, discount schedules, and their contract arrangement.
+
+In the simplest case, the customer is on a pay-as-you-go model and is charged the list (un-discounted) price. There may be automated discounts applied based upon the volume of usage, which involves checking a reference tables with ranges of consumption and specified discount levels. Overage fees may apply in scenarios where the customer usage exceeded certain thresholds. Rate multipliers may result in uplifts to charges that occur during peak time periods or with higher SLAs.
+
+usage based billing rating process
+Billable usage quantity
+The billable usage is not necessarily the same as the actual metered consumption reported by the product. The customer may have consumed 500 units during the month, but may only be billed for 450. SaaS and cloud provider have different methodologies for calculating the quantity of consumption in a billing period.
+
+The calculation might be as simple as sorting the events by customer and then counting up the totals. Or it might require a slightly more complex set of mathematical operations such as calculating the average, mean, max, min, or 95th percentile from the raw metered data. There also may be pre-processing required that involves rounding or division of the consumption into blocks.
+
+Usage rating for complex contracts
+For annual or long-term contracts with structures such as monthly minimum fees, prepaid usage with drawdowns, and spend commitments with true ups, the rating engine will need to perform additional steps to calculate the final charges.
+
+usage rating for complex contracts
+Monthly minimums
+For a monthly minimum contract, the rating engine will perform three steps:
+
+The engine will calculate the actual monthly spend based upon the customer’s consumption.
+The rating engine will then compare the actual spend to the monthly minimum to determine if it is higher or lower, which will determine what amount to invoice.
+If the actual spend is higher then overage charges will need to be calculated.  Overages may be priced at a different per unit rate.
+Prepaid usage
+For a prepaid usage contract, the rating engine will perform two primary steps:
+
+The current balance of prepaid credits will need to be determined by analyzing the usage over the prior periods as well as applying any new debits or credits.
+The current month’s billable usage quantity will need to be calculated and debited against the prepaid balance. If the customer has depleted all their credits then a new invoice will be generated to cover the deficit or replenish the balance.
+Spend commitments
+For spend commitments, the rating engine will perform three steps:
+
+Calculate the current month’s spend. 
+Determine the opening balance for the spend commitment.  In other words, it calculate how much has the customer spent so far and what is the remaining obligation.
+If the current month is the last one in the contract period and the total spend levels did not reach the commitment, a true up invoice will be generated.
+Step 4
+Bill Generation
+Electronic invoice presentment and payment
+
+Invoice presentation and payment for usage-based pricing follows a similar to approach to other types of pricing models.  The outputs of the rating engine will need to be combined with other line items for subscriptions fees, professional services billings, credits/refunds, and sales taxes onto a single invoice. 
+
+The invoice can be delivered as a PDF attachment to an email or transmitted in a machine-readable format such as EDI or XML. 
+
+Ideally, customers should be offered a choice of payment channels from auto-payment via credit to AP-initiated ACH, wire transfers, and checks.
+
+
+Invoices, Statements, and Usage Records
+Minimizing AR inquiries with detailed customer communications
+
+There are some unique considerations as usage-based pricing is significantly more complex than other commercial models and results in an abnormally high level of customer inquiries and disputes.  Customers with prepaid usage are likely to get confused when they receive unexpected bills resulting from an automated replenishment triggered by a low balance or expired credits.  Customers with monthly minimum contracts will get confused why they are being charged a relatively high fee in a month with low usage.  Conversely, they will also question why they are paying overage fees in times of high usage when they were expecting to only pay the contracted monthly minimum.
+
+To educate customers and reduce the volume of inquiries the accounts receivable department receives, SaaS and cloud providers will invest time to offer a more detailed set of communications about usage-based charges. Examples include:
+
+Detailed Invoices – Usage-based pricing is complex and the charges vary from month-to-month, which results in a higher volume of disputes and inquiries. To reduce the risk of late payments, many providers will include details such as formulas, calculations, and discount schedules on the invoice to help customers interpret the bill.
+Account Statements – For long term contracts customers will want to understand progress against forecasted usage goals.  Customers with prepaid credits should see the current balance as well as the history of monthly drawdowns.  Accounts with spend commits should see the remaining obligations and dollars of commitment already satisfied.
+Usage Detail Records – In addition to the invoice, many customers also want to get copies of the usage detail records captured during the metering process. These records include all the information captured about each transaction during the month including the product used, date/time of usage, and quantity consumed.
+Billing Documentation
+Statements and invoices should have links pointing customers to web-based resources that contain further details on the invoice process and billing policy. SaaS and cloud providers will need to prepare online documentation that explains in plain English how pricing and quantity are determined including details about the value metrics, discount schedules, and billable usage calculations. Billing policies should answer frequently asked questions on topics such as overage fees, rollovers, and expiration dates.
+

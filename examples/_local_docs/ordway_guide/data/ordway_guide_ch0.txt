@@ -1,0 +1,221 @@
+
+Chapter 0: What is Usage-Based Pricing?
+In a usage-based pricing model the customer is charged based upon their actual consumption of a cloud or SaaS service. If the customer uses the product for one hour they are only billed for a single hour. If the customer doesn’t use the product at all, they will not have to pay any fees. Usage-based pricing is an increasingly popular alternative to the subscription pricing model. With the subscription model the customer is charged a fixed fee per month regardless of whether the customer uses the product each day of the month or not at all.
+
+The charges a customer pays each month in a usage-based pricing model are determined from a simple formula:
+
+Charge = per unit price x quantity of units consumed
+price times quantity equals charges
+Usage-Based Pricing Guide
+Plain English Explanations for SaaS and Cloud Professionals
+Usage-based pricing is growing in popularity with SaaS and cloud companies.  Although the finance and engineering teams often take the lead on implementing the model, usage-based pricing is only successful when the whole business understands the model.  Everyone from the Human Resources professionals managing sales compensation plans to the Customer Success Managers answering questions about the monthly bill need to understand the nuts and bolts of how usage-based pricing works.  
+
+To assist all the employees in SaaS and cloud companies who are trying to understand how usage based pricing works, we developed this guide. It’s written in plain English and offers examples and illustrations to understand each of the key concepts from packaging and presentation to discounting and contracts to billing and investor reporting.
+
+Chapter 1 : Value Metrics
+Time, Transactions, Volume
+The crux of any usage-based pricing model is the unit of metric or value metric for the per unit charge.  In traditional subscription models, the value metric is typically the number of registered users, but with usage-based pricing SaaS and cloud companies can select from an infinite number of metrics.
+
+value metrics for usage-based pricing
+There are four common types of value metrics common in usage based pricing:
+
+Time
+Transactions
+Volume
+Count
+Reach Chapter 1: Value Metrics »
+
+Chapter 2: Discounting Models
+Volume, Tiered, Stair Step
+With usage-based pricing SaaS and cloud providers can generate higher revenues by driving greater consumption. As a result, technology vendors will typically create discount schedules that offer customers a financial incentive to use more of the product. 
+
+four popular discounting models for usage-based pricing
+There are four popular discounting models that are most common:
+
+Single, fixed rate
+Tiered
+Volume
+Stair step model
+Read Chapter 2: Discounting Models »
+
+Chapter 3: Contract Structures
+Prepaid, Monthly Minimums, Spend Commits
+As consumption grows, most customers prefer to have the cost savings and predictable expenses that come with a long-term contract even if means losing the flexibility to cancel at any time.  
+
+popular contract structures for usage-based pricing
+There are four popular contract structures for usage-based pricing:
+
+Prepaid usage
+Monthly minimums
+Spend commitments
+Tiered subscriptions
+Read Chapter 3: Contract Structures »
+
+Chapter 4: Packaging Strategies
+Bundles of Entitlements, Features, and Allowances
+Many SaaS and cloud providers bundle their features, entitlements, and usage allowances into three tiers, each with a fixed price point. These packages make it easier for customers to select a bundle of services that is most appropriate for their use cases.
+
+three column pricing table for SaaS companies with usage-based pricing
+There are three popular strategies for packaging services with a usage-based pricing model:
+
+Feature-defined tiers
+Usage-defined tiers
+Technology-defined tiers
+Read Chapter 4: Packaging Strategies »
+
+Chapter 5: Presentation Formats
+Grids, Tables, Sliding Scales
+Usage-based pricing can be complex and intimidating to buyers.  If the customer cannot understand how they will be billed for consuming the service, they might delay a purchase or select an alternative vendor with a simpler pricing model.  As a result, SaaS and cloud providers invest time and energy to ensure they present their pricing in a format that is easy to understand.  
+
+grid style presentation format for usage-based pricing with two rows and three columns representing different products
+There are five common models:
+
+Grid format
+Table format
+List format
+Column tiers
+Sliding scale
+Read Chapter 5: Presentation Formats »
+
+Chapter 6: Quantity Calculations
+High Water Mark, Percentile Billing
+The amount that the customer consumed during any given month is not necessarily the amount of usage that the customer will be billed for. A customer may have consumed 10,00 units, but only be billed for 8,000. SaaS and cloud providers use a variety of strategies for calculating the “billable usage quantity.” Some approaches are designed to more fairly bill the customer and others are intended to boost revenues.
+
+billable usage quantity calculation for usage-based pricing
+A few of the more popular models include:
+
+High Water Mark
+Percentile Billing
+Quantity Caps
+Usage Pooling
+Read Chapter 6: Quantity Calculations »
+
+Chapter 7: Usage-Based Billing
+Metering, Rating, Invoice Generation
+
+The billing process can be the most complex aspect of a usage-based pricing model, particularly when prepaid units, monthly minimums, spend commitments contracts are involved or non-billable usage categories such as free credits or rollover units can apply. Determining the appropriate price and billable usage quantity often require multiple steps and mathematical operations.
+
+four step process for usage-based pricing
+There are four steps to the usage-based billing process:
+
+Metering Consumption
+Data Mediation
+Rating Engine
+Invoice Generation
+Read Chapter 7: Usage-Based Billing »
+
+Chapter 8: Investor Reporting
+ARR, RPO, Net Retention
+
+Investors want to compare the financial performance of companies with usage-based pricing to the broader community of SaaS and cloud vendors. As a result, technology providers with usage-based pricing are asked to report on many of the same recurring revenue metrics that companies with traditional subscription pricing models report on.
+our of the most common investor metrics tracked by companies with usage-based pricing models are:
+
+Annualized Recurring Revenue (ARR)
+Remaining Performance Obligations (RPO)
+Net Revenue Retention (NRR)
+Large Customer Expansion
+
+Learn More
+Executive Overview
+Usage-Based Pricing for SaaS and Cloud Providers
+Usage-based pricing is not a new concept.  It has been a popular model throughout the history of computing from the early days of timesharing mainframes to the present day.  However, it is currently enjoying a renaissance in the current era of cloud computing and software-as-a-service (SaaS) as it has been one of the key success factors contributing to hyper growth business models from organizations such as Twilio, DataDog, and Snowflake. These organizations have been able to achieve extraordinarily high levels of revenue growth and net revenue retention that have captured the attention of Wall Street analysts and Silicon Valley investors.
+
+While venture capitalists and private equity firms are attracted to the economics of usage-based pricing, the management teams at operating companies like it because of the flexibility and creativity it enables with monetization models.  With usage-based models, sales reps can configure contracts, pricing, packaging, and payment terms to best match the budget, cash flow, and risk dynamics of any specific customers.  Product managers can select from an almost infinite number of value metrics to perfectly balance the value the customer receives with the price that is paid.
+
+Table of Contents
+Adoption of Usage-Based Pricing
+Tech Sectors – SaaS, cloud, data services
+Other Industries – Energy, telecom, industrial
+For Customers
+
+Benefits – Costs, friction, and risk
+Challenges – Discounts, budget, and legal
+For SaaS & Cloud Providers
+
+Benefits – New customer acquisition, rapid expansion
+Challenges – Forecasting, cash flow, capacity planning
+Implementation Considerations
+Complexity – Pricing, quantity, contracts
+Organizational Impacts – Sales, product, finance
+Adoption in Technology Industry
+SaaS, Cloud, and Data Services
+Historically, usage-based pricing models have been most popular in applications and services for which the traditional per-user, per-month pricing model common in subscription offerings could not be applied.  Examples include infrastructure services such as:
+
+Infrastructure – All of the major cloud providers including Amazon Web Services, Microsoft Azure, Google Cloud Platform, and Oracle Cloud have usage-based pricing for their compute-as-a-service, storage-as-a-service, and database-as-a-service offerings.
+Messaging – Telecom and networking services have always standardized on usage-centric pricing models. Content distribution networks are priced based upon the data volumes transferred. VOIP applications are priced based upon minutes of use. Email and SMS text services are priced on message volume
+Data Services – API-centric services that provide employment verification, consumer identity verification, business entity validation or financial credit reporting are typically priced based upon the transaction volumes executed each month.
+Marketing – Many marketing automation applications are priced based upon the number of contact records in the database. Most content-centric services from distributing press releases to automatically generating contact are priced per word. Digital advertising is priced based upon end-user impressions.
+Over the past few years, categories such as internet of things, artificial intelligence, machine learning, observability, search, and certain types of cybersecurity products have shifted towards consumption models as well.
+
+SaaS and cloud categories with usage-based pricing - infrastructure,messaging, management, data and marketing services
+Adoption Beyond Tech
+Usage-Based Pricing in Energy, Telecom, and Aerospace
+In this guide we are focused on how usage-based pricing supports SaaS and cloud business models, but it is important to note that consumption pricing models are used in almost every industry segment.  A few examples include:
+
+Energy – Every business from professional services to industrial manufacturing needs electricity and sometimes natural gas to power their day-to-day operations.  Commercial utility services are typically priced on a consumption basis such as cents per kilowatt hours or dollars per thousand cubic feet.
+Telecommunications – Local, long distance, and international voice and data services are offered in a variety of formats.  Some businesses pay a fixed fee per month for services with a consistent predictable, usage pattern.  Others with irregular usage are typically purchased on a price-per-minute basis.
+Aerospace – Aircraft engine manufacturers offer as-a-service versions of their jet propulsion systems that include not only the equipment, but spare parts and servicing.  Pricing is consumption based and determined by the number of hours of use.
+Transportation – While some larger companies have their own vehicle fleets, many organizations lease, rent or consume transportation-as-a-service offerings.  Agreements for short-term use of cars, vans, and trucks are often priced based upon consumption with the value metric being the number of miles driven.
+Real Estate – Traditional commercial lease arrangements are typically priced with a standard fixed fee per month and various add-on charges.  However, new co-working models offer on-demand space rental that is priced based upon consumption at a per day or per seat per hour rate.  
+Customer Benefits
+Lower Cost, Lower Friction, and Lower Risk than Subscriptions
+
+Usage-based pricing offers a number of advantages to customers in the early stages of adopting a new SaaS or cloud product. 
+
+Low Cost  – Perhaps, the biggest advantage of usage-based pricing – as compared to subscriptions – is that you you pay only for what you use.  If you use the product for one day you are only billed for consumption during a single day (not the full month).  If you don’t use the product at all then you will not have to pay.
+Low Friction – In many cases, the customer experience for a new user that wants to try a product is almost frictionless.  Often, the customer can experiment with the product using a free trial then upgrade to a more feature-rich paid plan without having to speak to a sales representative.
+Low Risk – Many usage-based pricing models do not require a customer to sign an annual contract.  The customer can register online for a monthly, pay-as-you-go plan that bills in arrears via a credit card.  If the customer decides to discontinue using the service, there are no additional fees to be paid.
+benefits to customers from usage-based pricing - low cost, low friction, low risk
+Customer Challenges
+No Discount, No Budget Predictability, No Data Protection
+For customers that rely on the product for business-critical functions and need to consume high volumes on a daily basis, many of the advantages outlined above can quickly turn into disadvantages.
+
+No Discounts on Pricing– With a no contract (monthly, pay-as-you-go plan), the customer typically pays the list price for each unit consumed. Although, the customer is only paying for what they use, they are paying more per unit than they could or should.
+No Predictability for Budgets – The amount billed each period can vary significantly from month-to-month. Although there may not be friction with the vendor, there will be friction with the finance department as business users are not able to predict how much they will spend and when they will spend it.
+No Legal or Data Protection – As more and more users adopt the service across the customer’s organization, there is more sensitive data stored on the cloud platform and more dependency on the service performing as expected. For customers with high volumes of usage, the lack of a formal contract is introducing risk.
+These higher costs, friction, and risk can be mitigated by entering into a formal contract arrangement with the SaaS or cloud computing provider.  With a contract the customer can negotiate a discounted price, a predictable payment plan, and secure data privacy protections as well as service level agreements.
+
+Benefits to SaaS and Cloud Providers
+New Customer Acquisition and Rapid Expansion
+Usage-based pricing offers SaaS and cloud providers a number of business model advantages as compared to traditional subscription contracts:
+
+New Customer Acquisition – When paired with a product-led growth model, usage-based pricing offers an almost unparalleled model for new customer acquisition.  End-users are attracted to the combination of low cost, low friction, and low risk.  Most prefer the experience over subscription-oriented, sales-led processes that drive customers to sign long-term contracts without offering any hands-on experience with product.
+Pricing Flexibility – Usage-based pricing offers an almost infinite number of choices. Product managers can tie pricing to millions of value metrics based upon transaction count, volume processed, or time consumed. If there isn’t a standardized metric that fits perfectly, SaaS and cloud providers can create their own new, custom value metric for pricing.
+Rapid Expansion – Most subscription pricing models are tied to user counts.  Each additional user requires a contract amendment which may require approvals from procurement, legal, and finance.  With usage-based pricing there is no approval required to scale.  Consumption can quintuple month-over-month without a contract amendment.  As a result, revenue has the potential to grow much faster.
+Challenges for SaaS and Cloud Providers
+Forecasting, Cash Flow, Capacity Planning
+There are a number of significant economic challenges that SaaS and cloud providers will need to overcome when scaling usage-based pricing models.
+
+Revenue Forecasting – Unlike subscription pricing models for which there is a committed monthly fee for the duration of the contract, usage-based pricing offers finance organizations little visibility into future revenue streams. Even if the customer purchases prepaid units, the timing of the consumption and associated revenue recognition can vary.
+Cash Flow – Customers on monthly, pay-as-you-go plans will be invoiced in arrears for the services consumed. In some cases, the SaaS or cloud provider will need to pay their suppliers as far as 30 to 60 days in advance of when they receive payment from the customer.
+Capacity Planning – With limited ability to forecast future usage, it is challenging to ensure that there is adequate capacity available for spikes in demand. Over-provision and your expenses will be high relative to revenues which will lower gross margins. Under-provision and your revenue maybe constrained by an inability to service demand.
+3 challenges SaaS and cloud vendors face with usage-based pricing - cash flow, revenue forecasting, capacity planning
+Many of the forecasting, cash flow, and capacity planning challenges can be reduced by converting customers onto longer term contracts with monthly minimum fees and some percentage of the committed revenue paid in advance. 
+
+The Complexity of Usage-Based Pricing
+Pricing, Discounts, Contract Structures
+The charges a customer pays each month in a usage-based pricing model are determined from a simple formula:
+
+Charge = per unit price x quantity of units consumed
+
+However, in practice the calculations are rarely this simple.  Complexities include:
+
+Pricing – The pricing may be based upon more than one variable.  For example, a customer may be charged $0.50 for each hour the product is consumed and $0.10 for each GB of data processed.
+Discounts – The final charges the customer pays may be discounted based upon the volume consumed.  For example, 5,000-10,000 units might qualify for a 20% discount, 10,000-20,000 units a 30% savings, etc.
+Non-Billable Usage – Certain types of transactions such as those that don’t successfully complete may be deemed non-billable.  Before quantity can be determined the non-billable units must be deducted.
+Rounding – Actual usage is rounded up before the billing process occurs.  For example, the customer may have used the service for 5 minutes on three instances, each of which are rounded up to 1 hour.
+Free/Included Units – The customer may be entitled to a certain number of free credits per month.  For example, the customer may have consumed 1,000 units but is entitled to 500 free units per month.
+Prepaid Units – The customer may have purchased a certain volume of usage in advance in exchange for a discount. They purchased 1,000 units and consumed only 100 so they owe nothing this month.
+Rollovers – Unused allowances from prior months may have been eligible to rollover into the current billing period.  300 units rolled over and the customer used only 200 this month so there is no charge.
+Minimum Fee – The customer may have signed a contract that stipulates they pay a minimum fee each month.  As a result, $500 may be billed even though the customer only consumed 100 units at $1/unit.
+Organizational Impacts and Workload
+Sales, Product, Finance
+There are a number of significant economic challenges that SaaS and cloud providers will need to overcome when scaling usage-based pricing models.
+
+Sales reps have to learn how to educate customers on complex products such as prepaid units as well as the associated billing policies for rollovers, expiration dates, and overage fees.
+Rev Ops needs to devise new compensation strategies that fairly pay sales reps based upon newly booked contracts for which the actual revenues might be 2-3X what is committed in the agreement.
+Product Management needs to identify the best unit of measure (value metric) to use for pricing consumption and devise discounting strategies that incentivize customers to increase consumption.
+role of sales, product, engineering, finance, customer success with usage-based pricing
+Engineering needs to develop product features that meter consumption for each individual customer and provide a clean, accurate feed of data to downstream customer portal and billing systems.
+Finance will need to take a feed of raw data on usage and quickly convert it into customer-friendly invoices, journal entries to recognize revenue, and operating metrics to share with investors.
+Customer Success will need to become experts on helping customers accurately forecast future usage patterns so they don’t waste funds on overage fees, expired credits or true up payments.

@@ -1,0 +1,100 @@
+Chapter 4: Packaging as a Strategy for Usage-Based Pricing
+Multi-Tiered Packages Drive Superior Economics for SaaS and Cloud
+
+When designed properly the packaging strategy for usage-based pricing can drive a compelling business model with superior economics. The most popular strategy for SaaS and cloud companies is to package their features into three tiers with progressively higher levels of value in each level. Think “good,” “better,” and “best.”  With each successive tier either the per unit price or total monthly price increases along with the level of value offered to the customer.
+
+three column pricing table for SaaS companies with usage-based pricing
+Most subscription pricing models, both in the consumer and business world, use a multi-tiered package strategy. As a result, both consumers and corporate buyers have become familiar with these models over the past decade. The familiarity is a strong incentive for technology firms with usage-based pricing models to adapt these strategies. One of the downsides of usage models is the complexity associated with the formulas. Pricing complexity can confuse buyers and result in lost deals. By adapting the popular multi-tiered packaging approach, the SaaS or cloud firm can de-risk the introduction of usage-based pricing and simplify the sales process.
+
+Familiarity is not the only benefit to packaging into multiple tiers. The reason these multi-tiered packaging strategies have become so popular among subscription companies is that they can drive superior results in the areas of new customer acquisition, ARR expansion, and net revenue retention.
+
+New Customer Acquisition
+Free Trials and Entry Level Paid Tiers
+The lowest tier is often a freemium model that accelerates new customer acquisition by offering a low-friction model for new users to experiment with the product. Not all SaaS and cloud providers offer a freemium version. Those that do not offer a freemium will instead offer a paid, entry level package at the lowest tier for new customers. The paid, entry-level package is typically offered for a low fee, with a monthly, pay-as-you-go model that reduces friction for new users wanting to try out the product. Both the free and entry level package typically will be limited to minimum viable product functionality. Ideally, the feature set should be just enough that the customer can understand the value of the product, but insufficient to satisfy their long term needs. Wanting more the customer will be motivated to upgrade to a higher tier at a higher price so they can derive more value from the product.
+
+Upsells and Expansion Revenue
+Higher ARR and Net Revenue Retention
+A well-designed packaging strategy will incentivize customers to move progressively through the tiers over time and grow revenue.  Customer expansion will not only increase ARR it will also enhance other important metrics such as Net Revenue Retention.  To ensure that the packaging strategy is driving the right customer behaviors, SaaS and cloud providers should   bundle the most compelling features into the higher tiers.  Additionally, technology firms may want to limit access to the higher tiers to those customers willing to sign an annual or multi-year contract.  The customer will typically receive a discount in exchange for signing the contract, but most SaaS or cloud providers are happy to offer a lower price point in exchange for a committed level of revenue over the life of the agreement.
+
+Three Ways of Packaging
+By Features, Usage, or Technology Configuration
+There are three common types of multi-tiered packages that SaaS and cloud companies typically adopt for usage-based pricing:
+
+Feature-defined – Packaging tiers are differentiated by the functionality offered.
+Usage-defined – Packaging tiers are differentiated by the amount of usage allowed.
+Technology-defined – Packaging tiers are differentiated by the performance, capacity, or service level provided.
+Type 1
+Feature-Defined Packages
+Pre-configured bundles of entitlements
+
+Product features and entitlements are grouped into three different packages with each configuration having an increasing level of functionality. Think “good, better, best.” In practice, the packages are given names like “Basic, Pro, and Enterprise” or “Starter, Growth, and Enterprise.”
+
+Three column usage-based pricing table with $0.25 per unit for Pro tier, $0.50 per unit for Business tier, $0.75 per unit for Enterprise tier
+Per Unit Pricing vs Monthly Charges
+Note, that each package not only increases the level of functionality the customer can access, but it also increases the per unit price that is paid.  The amount that the customer will pay each month will vary based upon two variables:
+
+The feature tier they choose which impacts their price per unit
+The actual quantity of consumption of the product
+Customers on the highest tier do not necessarily pay the highest amount each month.  It is the combination of price x quantity that determines the monthly charge.  Consider three scenarios using the example from above:
+
+Scenario 1: The customer chooses the Developer package with a $0.25 price per transaction.  During the first month the customer uses 1,000 transactions and pays $250.
+Scenario 2: The customer chooses the Business package with a $0.50 price per transaction.  During the first month the customer uses 500 transactions and pays $250.
+Scenario 3: The customer chooses the Enterprise package with a $0.75 price per transaction.  During the first month, the customer uses 100 transactions and pays $75.
+The customer in scenario 1 is paying the lowest per unit rate, but ends up paying the same monthly fee as the customer in scenario 2 who has a higher per unit rate, but lower consumption.  The customer in scenario 3 has the highest per unit rate, but the lowest consumption volume and ends up paying a considerably lower charge than the other 2.
+
+Real World Example of Feature-Defined Packaging
+Below is an example of a three tiered, feature-defined packaging strategy with usage-based pricing.  The customer can choose between a free, pro, and enterprise tier, each with progressively higher prices and an expanding list of features.  The pricing is based on a single value metric – the count of hosts being monitored on cloud infrastructure.
+
+example of a feature defined, 3-tiered packaging strategy with a free, pro, and enterprise tier each at higher pricing and with more functionality
+For additional details on the specific example of a feature-defined, multi-tiered packaging shown above visit the DataDog website.
+
+Tier 1 – Free Trial or Freemium
+Companies with a product-led growth model will typically offer a free tier of functionality designed to lower friction for new prospects and accelerate new customer acquisition. 
+
+three column pricing table with $0 free tier, $0.50 per unit business tier, $0.75 per unit enterprise tier
+If there is no free tier, the SaaS or cloud provider will typically offer a baseline package with a minimum viable set of product functionality at an attractive price.  Similar to the free tier, the goal with the baseline package is to offer a low friction entry point for the user to become a paying customer.  In both models, the hope is that the customer will fall in love with the product experience and expand adoption quickly.
+
+Tier 3 – Enterprise Custom Pricing
+Almost all SaaS and cloud providers will offer an enterprise tier.  The name can be misleading as a small business with high usage might select the enterprise tier even though their corporate revenue is relatively low.
+
+feature-defined multi-tiered packaging for usage-based pricing with $0 free tier, $0.50 per unit business tier, custom enterprise tier pricing
+Typically, the price for the enterprise tier is not presented to the customer on the pricing page of the website.  Instead, customers interested in the Enterprise tier are instructed to contact the sales organization to obtain a customized quote based upon their specific needs.  As a result, the feature-defined configurations typically look more like the following:
+
+Why Three Tiers?
+Not all SaaS and cloud providers offer three packages. Some offer two, four, or even five. However, increasing the number of options creates a paradox of choice that can backfire and confuse customers. As a result, three configurations (e.g. “Free, Standard, and Enterprise”) is more popular than four (“Free, Developer, Standard, and Enterprise).”
+
+Type 2
+Usage-Defined Packages
+Pre-defined ranges of monthly consumption
+
+Multiple packages are defined, each with an increasingly level of usage allowed during a month. With each progressive tier, the total price the customer pays per month increases in accordance with the additional consumption levels allowed. In some cases, the packages may offer additional features and other entitlements beyond usage. However, the different usage levels are the key differentiating element between the tiers.
+
+four column usage-based pricing table with $100 for up to 1000 units, $200 for 100-5000 units
+Usage-defined configurations are similar to feature-defined configurations.  In both strategies, the features and entitlements are bundled into three or more packages that makes it easy for customers to compare the value offered fore each different price.  However, there are two important differences between the usage-defined and feature-defined packages:
+
+1) Usage Allowances Differentiate Tiers
+
+The key difference between the package options is not the functionality as is the case with feature-defined packages. Instead the packages each offer different consumption allowances.  The base package may offer 5,000 units, the second package offers 10,000 units, the third package offers 20,000 units and so on.  
+
+2) Predictable, Fixed, Monthly Fee
+
+With the usage-defined configuration each package is offered for a predictable, fixed fee per month.  For example, the customer gets a usage allowance of 5,000 units for $100 per month.  With feature-defined configurations, the price per unit is fixed, but the actual amount that the customer will pay varies month-to-month based upon consumption.  For example, the unit price might be $0.50 and the customer could pay $250 for 500 units or they could pay $500 for 1,000 units.
+
+It is more common to see 4 or 5 different tiers with usage-defined configurations with the goal of offering the customer more bracketed ranges of usage to choose from.  
+
+Real World Example of Usage-Defined Packaging
+Below is an example of a usage-defined, three-tiered packaging strategy for a marketing automation application.  The primary difference between the tiers is the allowance for contact records, but there are also additional product features and entitlements bundled into each level.
+
+example of usage-defined, three tiered packaging where the tiered are defined by number of contacts in marketing database
+To learn more about the specific example of a usage-defined, multi-tiered packaging strategy visit the Hubspot Marketing Hub page.
+
+Type 3
+Technology-Defined Packages
+Pre-configured bundles of CPU, memory, storage 
+
+A third type of strategy is to package configurations based upon the technology specifications such as capacity, performance, service level, or a combination of all three.  Technology-defined configurations are far less common than feature or usage-defined packages, but are worth noting.
+
+five column usage-based pricing table with x-small, small, medium, large, x-large configurations of cloud services
+In the cloud infrastructure-as-a-service sector providers offer various pre-configured bundles of CPUs, RAM, and storage to support different use cases from machine learning to database processing. The bundles often are given specific names to enable customers to quickly reference the configuration being used.  Some providers follow a “t-shirt size” model to name configurations – S, M, L, XL, XXL, etc.  Others will give the configurations a numbering scheme such as A100, A200, A300, A400, etc. that reflects the increased performance of each package.
+
+In some cases the cloud provider will offer dozens of different configurations and simply present them in a list (not as packages).  In other cases, the options are limited to 3-5 configurations and are bundled with a set of features and entitlements as technology-defined packages.

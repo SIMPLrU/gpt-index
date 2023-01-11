@@ -1,0 +1,138 @@
+Chapter 2: Discounting for Usage-Based Pricing
+Incentivize Higher Consumption
+Discounting is another example of the power and creativity that is available with usage-based pricing as SaaS and cloud providers can choose from an almost infinite number of possibilities to optimize their business model.
+
+For example, some SaaS and cloud providers offer discount schedules in which the customer enjoys progressively better pricing as usage increases:
+
+1,000 units of consumption qualifies for a 10% discount
+5,000 units of consumption qualifies for a 15% discount
+10,000 units of consumption qualifies for a 20% discount
+Creativity can be applied to the formula calculations as well.  For example, there are two different ways the discount table above could be implemented. Suppose the customer consumed 8,000 units of a service with a list price of $1/unit:
+
+Calculation 1 – All 8,000 units are priced at 15% off $1 ($0.85)
+Calculation 2 – The first 1,000 units get no discount ($1.00 each), units 1,001-5,000 are priced at 10% off ($0.90), units 5,001-8,000 are priced at 15% off ($0.85)
+Four Types of Discounting for Usage-Based Pricing
+There are four models of discounting for usage-based pricing that have become popular amongst SaaS and cloud providers:
+
+1) Single Rate
+
+Apply flat rates to usage for linear pricing models.  For example, the customer is billed $0.50 per transaction whether they performed 1 transaction or 1 million transactions.
+
+2)Tiered
+
+Compute charges at multiple rates for multiple tiers.  For example, the customer is billed $1 for the first 1000 units consumed, $0.50 for the next 1000 units, and $0.25 for any additional units.
+
+discounting strategies for usage based pricing
+3)Volume
+
+Apply dynamic volume discounts based upon usage.  For example, the customer is billed if $1/unit if volume is below 1000. Above 1000, all units from 1 to n are billed at a discounted rate ($0.50).
+
+4)Stair Step
+Tiered packages – each with a maximum allowance. For example, package A includes 500 units for $100/month. Customers of package A are billed $100/month whether they use 0, 250, or 500 units.
+
+Discount Type 1
+Single Rate
+The single rate model for discounting is the simplest and most popular approach. The single rate model goes by many alternative names such as “flat rate,” “quantity,” and “per unit.”
+
+In this single rate model the customer negotiates a simple discount structure that results in one fixed rate per unit.  The rate is the same independent of how much the customer consumes. The formula to compute the amount owed is simply:
+
+Price x Quantity = Usage-Based Charge
+
+A better description for the single rate model would be to call it a single rate tier – to differentiate it from the other usage-based pricing models which have multiple “tiers” of pricing as described below.
+
+single rate usage based pricing model
+Example of Single Rate Discounting
+For example, suppose the list price was $5 per unit and the customer negotiates a 20% discount in exchange for an annual contract with a specific dollar commitment.  A 20% discount on $5 per unit results in a single rate of $4 per unit.  As a result, the customer would pay:
+
+If 100 units are consumed then the customer is charged $400 (100 units x $4 per unit)
+If 300 units are consumed then the customer is charged $1,200 (300 units x $4 per unit)
+If 500 units are consumed then the customer is charged $2,000 (500 units x $4 per unit)
+Discount Type 2
+Tiered Discounting
+The tiered discounting model for usage-based pricing offers customers an incentive to consume more by offering a discount that increases with increased consumption.
+
+The tiered model is also referred to as graduated pricing. The calculations for tiered pricing are more complex than in other models as the price x quantity calculation must be performed for each different tier.
+
+Tier 1: A baseline discount level of A% is charged for the first n units.
+Tier 2: A slightly higher discount level of B% is charged for the next n units.
+Tier 3: Another slightly higher discount level of C% is charged for the next n units. And so on.
+It is rare to see a tiered model displayed on a vendor’s website. Tiered pricing is typically implemented as part of discounting strategy for a longer term contract. Discounts might be applied based upon the number of units consumed or alternatively, based upon the dollar value of the spend.
+
+tiered discounting usage-based pricing
+Example of Tiered Discounting
+For example, assume that the vendor offers a three-tiered discounting model with the discounted rate of $6 per unit for the first 200 consumed, $4 discounted rate for units 201-400, and $2 discounted rate for units 401+. If the customer consumes 500 units during the billing cycle then the amount owed would be calculated like this:
+
+Tier 1: The first 200 units are charged at a rate of $6/unit. The subtotal for tier 1 is 200 x $6 = $1,200.
+Tier 2: The next 200 units are charged at a rate of $4/unit. The subtotal for tier 2 is 200 x $4 = $800.
+Tier 3: The last 100 units are charged at a rate of $2/unit. The subtotal for tier 3 is 100 x $2 = $200.
+The total price is $2,200, which is the sum of the three subtotals ($1,200 + $800 + $200).
+
+Real World Example of Tiered Discounting
+Below is an example of a tiered discounting model offered for data transfer out (egress) from a content distribution network.  The rate varies based upon the volume of GB transferred from different geographic locations.  The level of discount offered increases (and the pricing decreases) in tiers as the volume crosses certain usage thresholds.
+
+example of tiered discount table from cloud provider showing various rates for data transferred out of a cloud environment
+For additional details on the example tiered discount pricing model above view the Google Cloud Platform Content Distribution Network page.
+
+Discount Type 3
+Volume Discounting
+In the volume discounting model for usage-based pricing is similar to the tiered model, but with a different approach to calculating the amounts owed. Like the tiered model, the volume model also offers customers an incentive to consume more by offering a discount that increases with consumption.
+
+Tier 1: A discounted rate of A% (list price of X per unit) is charged to customers with volume under a threshold of n.
+Tier 2: Once the customer consumes n+1 units, the discount increases to B% (list price drops to Y per unit) for all units.
+Tier 3: Another, slightly higher discount level of C% results in a lower price of Z per unit is charged once the customer reaches the next threshold. And so on.
+volume discounting for usage-based pricing
+Example of Volume Pricing
+For example, suppose that the vendor offers three discount tiers:
+
+Tier 1: If 100 units are consumed, then the customer is charged the $6 per unit rate. The price is 100 x $6 = $600.
+Tier 2: If 300 units are consumed, then the customer is charged the $4 per unit rate. The price is 300 x $4 = $1,200.
+Tier 3: If 500 units are consumed, then the customer is charged the $2 per unit rate. The price is 500 x $2 = $1,000.
+Real World Example of Volume Pricing
+Below is an example of a volume discounting model offered for an image recognition service that can detect faces, celebrities, landmarks, brands, and other objects.  The price per unit for all units decreases (and the discount increases) as the number of transactions crosses certain volume thresholds.
+
+example of a volume discount for image recognition service pricing is based upon number of transactions
+For additional details on the example volume discount pricing model above view the Azure Cognitive Services pricing.
+
+Discount Type 4
+Stair Step Discounting
+The stair step discounting model for usage-based pricing offers more predictability to customers by guaranteeing a fixed price for usage as long as it is within a certain bracketed range.
+
+Tier 1: If the customer consumes between a range of minimum A (e.g. 0) and a maximum B (e.g. 200), they pay a fixed price of $X for the billing period.
+Tier 2: The next range of between minimum B (e.g. 200) and maximum C (e.g. 400), they pay a fixed price of $Y for the billing period.
+Tier 3: Additional tiers define additional ranges for increasing prices per month.
+example of usage-defined multi-tiered pricing model
+There are a few differences to note with the stair step model as compared to the single rate, volume, and tiered models.
+
+With stair step the focus is on the total price the customer pays during the billing period, which is different than the single rate, volume, and tiered models that focus on the price per unit.
+Since the total price the customer pays goes up as consumption increases.  As a result, the total pricing in stair step tables increases with volume.  In the single rate, volume, and tiered models, the per unit price decreases with volume.
+stair step usage based pricing model example
+Example of Stair Step Pricing
+For example, assume that the vendor offers a three-tiered stair step model as outlined in the diagram above.
+
+Tier 1
+If the customer is in the lowest tier, then they enjoy a baseline level of discount and a standard monthly price of $1,000.  As a result,
+
+0 units are consumed, the customer pays $1,000.
+100 units are consumed, the customer pays $1,000.
+199 units are consumed, the customer pays $1,000.
+Tier 2
+If the customer is in the middle tier, then they enjoy a higher level of discount and pay a standard monthly price of $1,500 for usage between
+
+201 units are consumed, the customer pays $1,500.
+399 units are consumed, the customer pays $1.500.
+Real World Example of Stair Step Pricing
+Below is an example of a stair step discounting model offered for a shipping application.  An e-commerce site can print out shipping labels on demand to send out via carriers such as UPS, FedEx, DHL, and USPS.  The customer pays a fixed fee per month that is based upon the number of shipping labels printed.  Prices are broken into bracketed ranges that step up when certain volume thresholds are exceeded.
+
+example of stair step discounting model for shipping labels price per month decreases with more labels
+For additional details on the example stair step discount pricing model above view the Shippo website.
+
+Variations on Discounting Strategies
+Product vs Account Level Discounts
+
+The four discounting strategies can also be applied in many different ways.  For example, the discounts could be designed at an individual product level or an overall account level.  With a product-level model, the discounted price is based upon how many units of a particular service the customer consumes.  A discount of 20% off product A is offered for a volume of 10,000 units.   With the account-level model, the discounting strategies are based upon how much the customer spends across multiple products.   A 20% discount off the total monthly invoice price is offered for spend of $5,000 or higher on products A, B, and C.
+
+Most account-level discounting models are implemented as part of an annual contract structure.
+
+Automated vs Negotiated Discounts
+
+SaaS and cloud providers take different approaches to negotiating and applying discounts.  Some tech firms only offer these discounts to customers who negotiate sign an annual contract with hard-dollar commitments.  Other SaaS and cloud providers automatically apply discounts to all customers whether they have an annual contract or a monthly, pay-as-you-go plan.  These automated discounts are often based upon a universal discount schedule whereas the contract negotiated discount schedules might vary for each individual customer.

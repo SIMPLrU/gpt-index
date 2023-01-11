@@ -1,0 +1,132 @@
+Chapter 1: Value Metrics for Usage-Based Pricing
+Monetizing Consumption
+
+In a usage-based pricing model, the charges a customer is invoiced for each period are typically based upon a simple formula – quantity of units consumed x price per unit.  One of the first decisions that a SaaS or cloud provider will need to make is what is the “unit” or value metric that the pricing is based upon. 
+
+With subscription models tie most SaaS and cloud providers tie their pricing to a single value metric – the number of users that have registered accounts on the product. However, in the world of usage-based pricing, there are thousands of different value metrics. 
+
+Some of the most popular include:
+
+Number of API calls
+Volume of GB transferred
+Hours of use
+Number of connected devices
+Usage-based pricing can be based upon just a single value metric (e.g. API calls) or it can be multi-dimensional combining multiple value metrics (e.g. API calls + GB transferred). 
+
+Four Types of Value Metrics
+Time, Transaction, Volume, and Count
+
+The thousands of different value metrics can be grouped into four primary categories:
+
+Time – Days, hours, minutes, seconds
+Transaction – Events, APIs, test runs
+Volume – TB, GB, KB of data
+Count – Devices, locations, database records
+four types of value metrics for usage-based pricing - time, transactions, volume, count
+SaaS and cloud providers can base their pricing strategy upon one or multiple value metrics depending upon how they want to monetize their solution.
+
+Metric Type 1
+Time-Based Value Metrics
+Seconds, Minutes, Hours, Days as Units of Measure 
+
+Pricing is based upon the length of time the service is consumed for. Time could be measured in hours, minutes, seconds, milliseconds, or another interval. Most of the cloud infrastructure-as-a-service (IaaS) charge with prepackaged combinations of virtual CPUs, GB of disk space, and GB of RAM available or rent on a per hour basis.
+
+example of time-based value metrics for usage-based pricing showing table of start and end times with elapsed time calculation
+Many communications-as-a-service also charge based upon time the service is used. The primary value metric is typically the number of minutes for a live phone call, conference call, or video session.
+
+Below is an example of a managed cloud database that uses a time-based value metric.  The cloud provider offers different combinations of vCPUs, RAM, and storage that are charged on a per hour basis.
+
+Time Based Value Metric Example showing Cloud SaaS offered on a per hour price basis
+View additional details about the example pricing model on the MongoDB website.
+
+Metric Type 2
+Transaction-Based Value Metrics
+Discrete Events as Units of Measure 
+
+Pricing is based upon the number of discrete transactions processed on the platform. A “transaction” could be a wide variety of value metrics such as API requests, user sessions, test runs, service invocations, database queries, or thousands of other variables.
+
+example of transaction-based value metrics for usage-based pricing shows a timeline of different customers using email and text messaging services
+For example, messaging providers charge based upon the number of emails or SMS text messages sent from their platforms. AI-powered computer vision applications charge based upon the number of images processed or the number of objects (labels, faces, landmarks, logos, text) identified within images.
+
+Below is an example of a image/facial recognition service that uses a transaction-based value metric.  The cloud-based service is priced based upon the number of API calls per month.
+
+Transaction Based Metric Example
+View additional details about the example pricing model above on the Amazon Web Services page.
+
+Metric Type 3
+Volume-Based Value Metrics
+Units of Measure based upon Continuous Flow
+
+Pricing is based upon the amount of data processed or stored on the platform. Data could be measured by the quantity of raw volume in kilobytes, gigabytes, terabytes.
+
+illustration of volume-based value metrics for usage-based pricing showing data flowing in and out of cloud computing service
+For example, cloud infrastructure providers charge for storage, networking, monitoring, and security services based upon the GB of data stored, transferred, ingested, or scanned. Data could also be measured by the number of records. Many CRM and marketing automation vendors price services based upon the number of contacts stored in the system.
+
+Below is an example of a cloud platform service that uses a volume-based value metric.  The pricing is based upon a volume value metric – the GB of data transferred out (egress) of the cloud data center.
+
+Volume based metric example for network bandwidth
+View additional details about the example pricing model above on the Google Virtual Private Cloud page.
+
+Metric Type 4
+Count-Based Value Metrics
+Units of Measure based upon Sampling
+
+Pricing is based upon the count (number) of devices, machines, locations, or products being managed, monitored, or serviced by the platform. With a truly usage-based pricing, the number of devices would not be contractually defined, but vary dynamically with the flexibility to add new endpoints and remove others during the billing period.
+
+example of count-based value metrics for usage-based pricing showing pcs and servers are under management by cloud service
+Many IoT services price based upon the number of vehicles, cameras, sensors, windows, machines, or other devices connected to the service. Cloud monitoring and security services charge in correlation to the number of hosts, servers, desktops, or network devices protected.
+
+Below is an example of a cloud monitoring service that uses a count-based value metric.  The pricing is based upon the number of on-premise network devices (switches, routers, firewalls) being monitored for health and performance.
+
+Example of count-based value metric for monitoring health of network devices on premise
+View additional details about the example pricing model above on the DataDog website.
+
+Rate Multipliers
+Secondary Units of Measure
+
+Usage-based pricing does not need to be based upon a single value metric.  It could be tied to two or more variables.  One common approach that many SaaS and cloud providers use is the concept of a rate multiple.
+
+The price the customer pays is multiplied or divided based upon a second dimension such as:
+
+Date & Time
+Performance
+Outcome
+Network
+Use type
+rate multipliers for usage-based pricing - date/time, network, performance, outcome, use type
+Date & Time
+Peak vs non-peak
+
+The price for a service might be higher at certain dates and times than others.  Many providers have the concept of “peak hours” versus “off hours.”  For example, customers might pay a 50% premium to access a service on Monday-Friday from 8am-5pm.
+
+Performance
+Service Level Agreement
+
+Customers might be offered the option to obtain faster process or higher level of service in exchange for a premium fee.  For example, an audio transcription service (e.g. converts a podcast into text) might charge $1.00 per minute for the standard SLA of 24-hours and $2.00 per minute for the expedited delivery in 12 hours.
+
+Outcome
+Success vs Failure
+
+Customers might pay more or less depending upon whether or not the SaaS or cloud service is able to achieve the desired outcome. For example, an API verifying someone’s current employer or home address might charge $0.10 for a successful confirmation and $0.01 for a failed attempt.
+
+Network
+In-Network vs Out-of-Network
+
+Some SaaS and cloud providers have a concept of “in network” and “out of network” services that impacts pricing. For example, a fintech platform might charge only $0.50 to transfer funds between two customers that both use its savings accounts. However, transfers to accounts at external banks might be charged $5.00.
+
+Use Type
+Customer Critical vs Internal Use
+
+Customers might pay more for consumption that is tied to commercial use versus product development, testing, or other internal use cases.  For example, a marketing platform might charge $10.00 per hour for a live customer production use case, but only $1.00 per hour for testing performed by the quality assurance team.
+
+Multi-Dimensional Pricing
+1 to N Units of Measure
+
+As metering technology advances and rating engines grow more sophisticated, more SaaS and cloud providers are introducing multi-dimensional pricing based upon three or more variables.
+
+N-Metered Variables – Pricing could be based upon 1 to n consumption-related variables. For example, the price for a single cloud service could be determined based upon the number of transactions processed, the volume of data ingested, and the length of time it was consumed.
+Metered + Non-Metered Variables – Pricing could be based on 1 to n consumption-related variables plus other fixed fees that are independent of usage. For example, the price for a cloud service might consist of a fixed monthly platform free, a contracted number of users, and a metered variable such as data ingested.
+Below is an example of a cloud integration service that has two dimensional pricing.  The first value metric is a transaction metric – the number of tasks requested per hour.  The second value metric is a volume metric – the GB of data transferred.
+
+example of two dimensional usage based pricing with two different value metrics for cloud integration
+View additional details about the example pricing model above on the Confluent website.
