@@ -1,6 +1,14 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/simplru/gpt-index)
 
+# Quickstart
+
+```
+pip install gpt-index
+cd workspace/gpt-index/examples/_local_docs/ordway_guide
+python3 ordway.py "Explain ordway usage-based billing in 200 words"
+```
+
 # 🗂️ ️GPT Index
 
 GPT Index is a project consisting of a set of *data structures* that are created using LLMs and can be traversed using LLMs in order to answer queries.
