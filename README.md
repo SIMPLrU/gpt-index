@@ -5,6 +5,16 @@
 
 ```
 pip install gpt-index
+pip3 install poetry
+pip3 install pandas
+pip3 install ipython
+pip3 install torch # for PyTorch
+pip3 install flax # for Flax
+# pip3 install tensorflow # for Tensorflow
+# pip install tensorflow-gpu==2.5
+# pip show tensorrt
+
+
 cd workspace/gpt-index/examples/_local_docs/ordway_guide
 python3 ordway.py "Explain ordway usage-based billing in 200 words"
 ```
