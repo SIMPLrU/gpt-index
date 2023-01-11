@@ -1,3 +1,6 @@
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/simplru/gpt-index
+
 # 🗂️ ️GPT Index
 
 GPT Index is a project consisting of a set of *data structures* that are created using LLMs and can be traversed using LLMs in order to answer queries.
